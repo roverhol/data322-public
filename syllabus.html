@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Course Syllabus – DATA 322 - Machine Learning for Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="assets/css/humboldt-theme.css">
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-syllabus" id="toc-course-syllabus" class="nav-link active" data-scroll-target="#course-syllabus">Course Syllabus</a>
+  <ul class="collapse">
+  <li><a href="#data-322-machine-learning-for-data-science" id="toc-data-322-machine-learning-for-data-science" class="nav-link" data-scroll-target="#data-322-machine-learning-for-data-science">DATA 322: Machine Learning for Data Science</a></li>
+  <li><a href="#course-information" id="toc-course-information" class="nav-link" data-scroll-target="#course-information">Course Information</a>
+  <ul class="collapse">
+  <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
+  <li><a href="#laboratory-activity" id="toc-laboratory-activity" class="nav-link" data-scroll-target="#laboratory-activity">Laboratory (Activity)</a></li>
+  <li><a href="#final-exam" id="toc-final-exam" class="nav-link" data-scroll-target="#final-exam">Final Exam</a></li>
+  </ul></li>
+  <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates">Important Dates</a></li>
+  <li><a href="#instructor-information" id="toc-instructor-information" class="nav-link" data-scroll-target="#instructor-information">Instructor Information</a></li>
+  <li><a href="#course-description-catalog-description" id="toc-course-description-catalog-description" class="nav-link" data-scroll-target="#course-description-catalog-description">Course Description (Catalog Description)</a></li>
+  <li><a href="#student-learning-outcomes" id="toc-student-learning-outcomes" class="nav-link" data-scroll-target="#student-learning-outcomes">Student Learning Outcomes</a></li>
+  <li><a href="#course-learning-outcomes" id="toc-course-learning-outcomes" class="nav-link" data-scroll-target="#course-learning-outcomes">Course Learning Outcomes</a></li>
+  <li><a href="#program-institutional-learning-outcomes" id="toc-program-institutional-learning-outcomes" class="nav-link" data-scroll-target="#program-institutional-learning-outcomes">Program &amp; Institutional Learning Outcomes</a></li>
+  <li><a href="#course-materials-workload" id="toc-course-materials-workload" class="nav-link" data-scroll-target="#course-materials-workload">Course Materials &amp; Workload</a></li>
+  <li><a href="#required-materials" id="toc-required-materials" class="nav-link" data-scroll-target="#required-materials">Required Materials</a></li>
+  <li><a href="#how-to-succeed-in-this-course" id="toc-how-to-succeed-in-this-course" class="nav-link" data-scroll-target="#how-to-succeed-in-this-course">How to Succeed in This Course</a></li>
+  <li><a href="#course-feedback-assessment" id="toc-course-feedback-assessment" class="nav-link" data-scroll-target="#course-feedback-assessment">Course Feedback &amp; Assessment</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#attendance-participation" id="toc-attendance-participation" class="nav-link" data-scroll-target="#attendance-participation">Attendance &amp; Participation</a></li>
+  <li><a href="#late-or-missed-work-policies" id="toc-late-or-missed-work-policies" class="nav-link" data-scroll-target="#late-or-missed-work-policies">Late or Missed Work Policies</a></li>
+  <li><a href="#course-topics-approximate-order" id="toc-course-topics-approximate-order" class="nav-link" data-scroll-target="#course-topics-approximate-order">Course Topics (Approximate Order)</a></li>
+  <li><a href="#university-policies-resources" id="toc-university-policies-resources" class="nav-link" data-scroll-target="#university-policies-resources">University Policies &amp; Resources</a></li>
+  <li><a href="#accommodations" id="toc-accommodations" class="nav-link" data-scroll-target="#accommodations">Accommodations</a></li>
+  <li><a href="#classroom-online-conduct" id="toc-classroom-online-conduct" class="nav-link" data-scroll-target="#classroom-online-conduct">Classroom &amp; Online Conduct</a></li>
+  <li><a href="#changes-to-the-syllabus" id="toc-changes-to-the-syllabus" class="nav-link" data-scroll-target="#changes-to-the-syllabus">Changes to the Syllabus</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Course Syllabus</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">DATA 322: Machine Learning for Data Science</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-right">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="course-syllabus" class="level1">
+<h1>Course Syllabus</h1>
+<section id="data-322-machine-learning-for-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="data-322-machine-learning-for-data-science">DATA 322: Machine Learning for Data Science</h2>
+<p><strong>Cal Poly Humboldt — Spring 2026</strong></p>
+<hr>
+</section>
+<section id="course-information" class="level2">
+<h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
+<p><strong>Course Number:</strong> DATA 322<br>
+<strong>Course Title:</strong> Machine Learning for Data Science<br>
+<strong>Units:</strong> 4<br>
+<strong>Semester:</strong> Spring 2026<br>
+<strong>Mode of Instruction:</strong> In-person<br>
+<strong>Program Requirement:</strong> Required for the Data Science major</p>
+<section id="lecture" class="level3">
+<h3 class="anchored" data-anchor-id="lecture">Lecture</h3>
+<p><strong>Section:</strong> DATA 322-10 (CRN 22725)<br>
+<strong>Days/Time:</strong> Monday, Wednesday, Friday, 1:00–1:50 PM<br>
+<strong>Location:</strong> BSS 408</p>
+</section>
+<section id="laboratory-activity" class="level3">
+<h3 class="anchored" data-anchor-id="laboratory-activity">Laboratory (Activity)</h3>
+<p><strong>Section:</strong> DATA 322-11 (CRN 22726)<br>
+<strong>Day/Time:</strong> Tuesday, 1:00–2:50 PM<br>
+<strong>Location:</strong> BSS 313</p>
+</section>
+<section id="final-exam" class="level3">
+<h3 class="anchored" data-anchor-id="final-exam">Final Exam</h3>
+<p><strong>Final Exam:</strong> Wednesday, May 13, 2026, 12:40–2:30 PM<br>
+<strong>Location:</strong> BSS 408</p>
+<p>Please check Canvas and your Cal Poly Humboldt email regularly for course announcements and updates.</p>
+<hr>
+</section>
+</section>
+<section id="important-dates" class="level2">
+<h2 class="anchored" data-anchor-id="important-dates">Important Dates</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>January 20</strong></td>
+<td>Holiday (No class)</td>
+</tr>
+<tr class="even">
+<td><strong>February 2</strong></td>
+<td>Add/Drop Deadline without a serious and compelling reason</td>
+</tr>
+<tr class="odd">
+<td>February 20</td>
+<td>Demo Mini-Project from 11-11:50 in BSS 166</td>
+</tr>
+<tr class="even">
+<td>March 8</td>
+<td>Unsupervised Learning Project due</td>
+</tr>
+<tr class="odd">
+<td>March 13</td>
+<td>Midterm 1</td>
+</tr>
+<tr class="even">
+<td><strong>March 16-20</strong></td>
+<td>Spring Break (No classes)</td>
+</tr>
+<tr class="odd">
+<td><strong>March 31</strong></td>
+<td>Cesar Chavez Day (No class)</td>
+</tr>
+<tr class="even">
+<td>May 10</td>
+<td>Supervised Learning Project due</td>
+</tr>
+<tr class="odd">
+<td><strong>May 13</strong></td>
+<td>Final Exam: Wednesday, May 13, 2026, 12:40–2:30 PM, BSS 408</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> This schedule is subject to change. Any changes will be communicated through <strong>Canvas announcements</strong>.</p>
+<hr>
+</section>
+<section id="instructor-information" class="level2">
+<h2 class="anchored" data-anchor-id="instructor-information">Instructor Information</h2>
+<p><strong>Instructor:</strong> Dr.&nbsp;Rosanna Overholser<br>
+<strong>Email:</strong> rho3@humboldt.edu<br>
+<strong>Office Location:</strong> BSS 334<br>
+<strong>Office Phone:</strong> 707-826-4022</p>
+<p><strong>Office Hours:</strong></p>
+<p>Mondays 2:00–3:00 PM<br>
+Wednesdays 12:00–12:50 PM<br>
+Fridays 10:00–10:50 AM<br>
+Or by appointment</p>
+<p>Please use your Cal Poly Humboldt email account to contact me.</p>
+<hr>
+</section>
+<section id="course-description-catalog-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description-catalog-description">Course Description (Catalog Description)</h2>
+<p>This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include supervised learning, unsupervised learning, and best practices in machine learning. The course draws from numerous case studies and applications, with a practical rather than theoretical emphasis.</p>
+<p><strong>Weekly:</strong> Lecture 3 hrs. Activity 2 hrs.<br>
+<strong>Prerequisites:</strong> DATA 271, MATH 107, STAT 109</p>
+<p>A minimum grade of C- is required for the course to count toward the Data Science major.</p>
+<hr>
+</section>
+<section id="student-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="student-learning-outcomes">Student Learning Outcomes</h2>
+<p>(Note, students can find program learning outcomes on the program website, and institution learning outcomes here: https://academicprograms.humboldt.edu/content/baccalaureate-student-learning-outcomes)</p>
+<p><strong>(1) Students will demonstrate computational skills to extract different types and quantities of data from multiple sources and create visualizations and other data products for various audiences. (ILO 3,4,7)</strong></p>
+<p>In order to achieve PLO 1, students will demonstrate the following specific measurable behaviors:</p>
+<ul>
+<li>(SLO 1) Students will extract quantitative and categorical data from a large public database, calculate relevant summary statistics, and present findings numerically and graphically for in-class individual and group data projects.</li>
+</ul>
+<p><strong>(2) Students will demonstrate statistical knowledge to build mathematical models and ensure the validity of data and its analysis. (ILO 7)</strong></p>
+<p>In order to achieve PLO 2, students will demonstrate the following specific measurable behaviors:</p>
+<ul>
+<li>(SLO 2) Students will design a mathematical (logic) model to guide analysis and ensure valid and reliable results for in-class individual and group data projects.</li>
+</ul>
+<p><strong>(5) Students will communicate effectively with a diverse range of audiences. (ILO 5,6)</strong></p>
+<p>In order to achieve PLO 5, students will demonstrate the following specific measurable behaviors:</p>
+<ul>
+<li>(SLO 5a) Students will prepare a written description of a mathematical model in which they explain the context, describe their methodology, analyze their data, and reach a conclusion that includes a discussion of its implications.</li>
+</ul>
+<p>Additionally, one of students’ two projects, communicated in written form, will be the application of Machine Learning algorithms (supervised and unsupervised, respectively) to a data set related to one of the following: sustainability, social justice, or Traditional Ecological Knowledge (TEK). This project supports ILOs (1) and (2).</p>
+<hr>
+</section>
+<section id="course-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="course-learning-outcomes">Course Learning Outcomes</h2>
+<p>By the end of this course, students will be able to:</p>
+<ol type="1">
+<li>Recognize the characteristics of machine learning that make it useful for real-world problems.</li>
+<li>Explain how machine learning differs from inferential statistical modeling.</li>
+<li>Characterize machine learning algorithms as supervised and unsupervised.</li>
+<li>Implement common machine learning algorithms using Python-based toolkits.</li>
+<li>Apply regression, classification, and clustering methods to real data sets.</li>
+<li>Evaluate model performance and select appropriate models based on context and goals.</li>
+<li>Communicate modeling choices, results, and limitations to a variety of audiences.</li>
+<li>Identify and discuss ethical considerations related to data collection, modeling, and algorithmic decision-making.</li>
+</ol>
+<hr>
+</section>
+<section id="program-institutional-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="program-institutional-learning-outcomes">Program &amp; Institutional Learning Outcomes</h2>
+<p>This course supports the Data Science Program Learning Outcomes and Cal Poly Humboldt’s Institutional Learning Outcomes related to quantitative reasoning, critical thinking, communication, and ethical reasoning.</p>
+<hr>
+</section>
+<section id="course-materials-workload" class="level2">
+<h2 class="anchored" data-anchor-id="course-materials-workload">Course Materials &amp; Workload</h2>
+<p>DATA 322 includes:</p>
+<ul>
+<li>Three weekly lecture meetings</li>
+<li>One weekly laboratory session</li>
+</ul>
+<p>In this 4-unit course, students should expect to spend approximately <strong>12 hours per week</strong> on course-related work. This includes time in lecture (3 hours), lab time (2 hours), and time outside of class to complete readings, assignments, projects, and exam preparation (approximately 7 hours).</p>
+<hr>
+</section>
+<section id="required-materials" class="level2">
+<h2 class="anchored" data-anchor-id="required-materials">Required Materials</h2>
+<p><strong>Textbook:</strong></p>
+<p><a href="https://www.statlearning.com/"><em>An Introduction to Statistical Learning with Applications in Python</em></a></p>
+<p>Available free online or for purchase in print.</p>
+<p><strong>Software:</strong></p>
+<p>Python and commonly used data science libraries (installed on all campus computers)</p>
+<p><strong>Other Technology:</strong></p>
+<p>Regular access to a computer with reliable internet</p>
+<p>Students without personal access to required technology may use campus computer labs and library resources.</p>
+<hr>
+</section>
+<section id="how-to-succeed-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-succeed-in-this-course">How to Succeed in This Course</h2>
+<p>Students enter DATA 322 with different backgrounds in statistics, mathematics, and programming. That’s expected. You do not need to be an expert at the start of the semester to succeed in this course. What matters most is steady engagement and a willingness to practice, reflect, and ask questions.</p>
+<p>Students who are successful in this course typically:</p>
+<ul>
+<li><p><strong>Attend lecture and lab regularly.</strong><br>
+Class time is used to build intuition, practice ideas, and work through examples that are difficult to learn independently.</p></li>
+<li><p><strong>Participate actively in daily warm-ups.</strong><br>
+Warm-ups are designed to help you engage with your classmates and develop conceptual understanding and confidence before moving to more complex problems.</p></li>
+<li><p><strong>Use labs as a space to practice and make mistakes.</strong><br>
+Labs are meant for learning, not perfection. Comparing your work to posted results and reflecting on differences is an important part of the learning process.</p></li>
+<li><p><strong>Prepare consistently for weekly quizzes.</strong><br>
+Quizzes are short and predictable, but they require regular practice. Reviewing lecture notes, lab activities, and assigned textbook problems each week will help you succeed.</p></li>
+<li><p><strong>Start projects early and work iteratively.</strong><br>
+Projects are most successful when you begin early, test ideas incrementally, and seek feedback along the way. I’ve deliberately chosen two projects that reflect significant problems with real applications of ML. At first glance, the datasets might appear simple but great care is required to build useful products out of them. Rather than tell you a solution to implement, I’m going to use our class time to guide class discussions so that students will be active participants in creating appropriate solutions.</p></li>
+<li><p><strong>Collaborate appropriately with classmates.</strong><br>
+Discussing ideas and approaches is encouraged, but all submitted work must reflect your own understanding unless otherwise specified.</p></li>
+<li><p><strong>Ask for help when you need it.</strong><br>
+If you are struggling with course material, please reach out during office hours, lab sessions, or by email. Seeking help early can make a significant difference.</p></li>
+</ul>
+<p>As a general guideline, you should plan to spend approximately <strong>three hours per week per unit</strong> on course-related work, including time in class and time outside of class. For this 4-unit course, this corresponds to about <strong>12 hours per week</strong> total. Individual experiences will vary, but this can be a helpful frame of reference when planning your time.</p>
+<hr>
+</section>
+<section id="course-feedback-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="course-feedback-assessment">Course Feedback &amp; Assessment</h2>
+<p>Students will complete a variety of assessments designed to support regular practice, provide regular feedback, and evaluate mastery of machine learning concepts and methods.</p>
+<p>Assessments in this course include:</p>
+<ul>
+<li><p><strong>Daily warm-up problems</strong> during lecture (Mondays, Wednesdays, and Fridays).<br>
+These short activities are designed to help students engage with new concepts, build intuition, and practice explaining ideas with peers. Warm-ups are graded on participation.</p></li>
+<li><p><strong>Weekly programming labs</strong>.<br>
+Labs provide guided, hands-on practice implementing machine learning methods using Python. Labs are intended as formative learning experiences. I’ll provide desired outputs so students can check their work and reflect on their understanding before turning in their work. Labs will be graded on completion.</p>
+<p>Early in the semester, you will complete a <strong>mini project</strong> as part of the weekly labs. This project introduces the full workflow of an applied machine learning task in a simplified and supported setting. Using a provided Google Colab notebook, the class will modify an existing recommender system to form study groups based on survey responses collected from real participants.</p>
+<p>The goal of this mini project is not to produce perfect groupings, but to practice:</p>
+<ul>
+<li>Designing questions that can be translated into quantitative features</li>
+<li>Explore distance metrics</li>
+<li>Applying and interpreting clustering algorithms</li>
+<li>Working collaboratively with a shared product</li>
+<li>Reflecting on modeling decisions and their consequences</li>
+</ul>
+<p>This experience is designed to make the larger course projects more approachable and to build confidence before tackling more complex open-ended problems.</p></li>
+<li><p><strong>Weekly quizzes</strong> during lab sessions.<br>
+Quizzes assess understanding of both lab material and assigned practice problems. Quiz questions may include conceptual questions, mathematical calculations, interpretation of output or visualizations, and short problem-solving tasks. Quizzes are designed to encourage steady preparation and synthesis of ideas.</p></li>
+<li><p><strong>Two projects</strong>.<br>
+Projects require students to apply machine learning methods to real data, justify modeling choices, evaluate performance, and communicate results in written form. Projects emphasize modeling choices, interpretation, and communication and may be used as part of a professional portfolio.</p>
+<ul>
+<li><p><strong>Unsupervised Learning Project:</strong><br>
+In this project, you will use unsupervised learning techniques to build a <em>major recommender system</em> for Cal Poly Humboldt using publicly available data. The goal is to explore and justify modeling choices, and communicate the resulting recommendations clearly and responsibly.</p></li>
+<li><p><strong>Supervised Learning Project:</strong><br>
+In this project, you will work with data from a one-dimensional simulation of a fusion reactor to develop a model to predict the onset of instabilities <em>before</em> they occur. This project emphasizes feature engineering, computational efficiency and valid model evaluation in an effort to help further research in California’s renewable energy sector.</p></li>
+</ul></li>
+<li><p><strong>One midterm exam and one final exam</strong>.<br>
+Exams assess students’ ability to reason about machine learning methods, interpret results, compare approaches, and understand limitations. Exams focus on conceptual understanding rather than memorization of code syntax.</p></li>
+</ul>
+<hr>
+</section>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Daily Participation (Warm-ups)</td>
+<td>5%</td>
+</tr>
+<tr class="even">
+<td>Weekly Quizzes</td>
+<td>25%</td>
+</tr>
+<tr class="odd">
+<td>Weekly Labs</td>
+<td>15%</td>
+</tr>
+<tr class="even">
+<td>Two Projects</td>
+<td>30%</td>
+</tr>
+<tr class="odd">
+<td>Midterm Exam</td>
+<td>10%</td>
+</tr>
+<tr class="even">
+<td>Final Exam</td>
+<td>15%</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Final letter grades will be assigned according to the following scale:</p>
+<p>A: 93–100% | A-: 90–92% | B+: 87–89% | B: 83–86% | B-: 80–82% | C+: 77–79% | C: 73–76% | C-: 70–72% | D: 60–69% | F: 0–59%</p>
+<p>Grades are recorded in Canvas. Canvas grades are not official until finalized at the end of the semester.</p>
+<hr>
+</section>
+<section id="attendance-participation" class="level2">
+<h2 class="anchored" data-anchor-id="attendance-participation">Attendance &amp; Participation</h2>
+<p>Regular attendance and active participation are expected and essential for success in this course. Attendance in lecture and lab will be reflected in participation activities and assignments.</p>
+<p>If you must miss class, you are responsible for obtaining notes and keeping up with course material.</p>
+<hr>
+</section>
+<section id="late-or-missed-work-policies" class="level2">
+<h2 class="anchored" data-anchor-id="late-or-missed-work-policies">Late or Missed Work Policies</h2>
+<ul>
+<li><strong>Daily warm-ups</strong> are graded on participation and cannot be made up if missed.</li>
+<li><strong>Weekly labs</strong> are due on the posted deadlines in Canvas. Late submissions may be accepted in documented emergencies; otherwise, late work policies will be specified per lab.</li>
+<li><strong>Weekly quizzes</strong> are administered during lab sessions. If you need to miss a quiz due to illness or other emergencies, please contact me to make an arrangement to take it at another time.</li>
+<li><strong>Projects</strong> are due on the specified dates in Canvas. Late project policies will be specified per project.</li>
+<li><strong>Exams</strong> must be taken on the scheduled date unless arrangements are made in advance due to illness or emergency.</li>
+</ul>
+<p>Technology issues are not automatically considered valid excuses for late or missed work.</p>
+<hr>
+</section>
+<section id="course-topics-approximate-order" class="level2">
+<h2 class="anchored" data-anchor-id="course-topics-approximate-order">Course Topics (Approximate Order)</h2>
+<ul>
+<li>Data preprocessing skills from DATA 271</li>
+<li>Introduction to machine learning</li>
+<li>Unsupervised learning</li>
+<li>Traditional supervised learning methods</li>
+<li>Model evaluation and validation</li>
+<li>Modern supervised learning methods</li>
+<li>Feature engineering &amp; computational efficiency</li>
+<li>Ethical considerations and appropriate communication of results</li>
+</ul>
+<hr>
+</section>
+<section id="university-policies-resources" class="level2">
+<h2 class="anchored" data-anchor-id="university-policies-resources">University Policies &amp; Resources</h2>
+<p>Students are responsible for reviewing the <strong>Cal Poly Humboldt Syllabus Addendum</strong>, which includes policies and resources related to:</p>
+<ul>
+<li>Academic honesty</li>
+<li>Disability accommodations</li>
+<li>Emergency procedures</li>
+<li>Title IX</li>
+<li>Student conduct and support services</li>
+</ul>
+<p>The Syllabus Addendum is available on the Cal Poly Humboldt website.</p>
+<hr>
+</section>
+<section id="accommodations" class="level2">
+<h2 class="anchored" data-anchor-id="accommodations">Accommodations</h2>
+<p>Students who wish to request disability-related accommodations should contact the Student Disability Resource Center (SDRC) as early as possible and then email me your letter of accommodation.</p>
+<hr>
+</section>
+<section id="classroom-online-conduct" class="level2">
+<h2 class="anchored" data-anchor-id="classroom-online-conduct">Classroom &amp; Online Conduct</h2>
+<p>Standards of respectful and professional behavior apply to all course interactions, including in-person classes, assignments, and email communication.</p>
+<hr>
+</section>
+<section id="changes-to-the-syllabus" class="level2">
+<h2 class="anchored" data-anchor-id="changes-to-the-syllabus">Changes to the Syllabus</h2>
+<p>This syllabus is subject to change. Any changes will be communicated through Canvas announcements.</p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>Creative Commons Attribution-NonCommercial 4.0 International<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">(View License)</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Course Syllabus"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "DATA 322: Machine Learning for Data Science"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># Course Syllabus</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## DATA 322: Machine Learning for Data Science</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>**Cal Poly Humboldt — Spring 2026**</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Information</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>**Course Number:** DATA 322\</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>**Course Title:** Machine Learning for Data Science\</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>**Units:** 4\</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>**Semester:** Spring 2026\</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>**Mode of Instruction:** In-person\</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>**Program Requirement:** Required for the Data Science major</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">### Lecture</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>**Section:** DATA 322-10 (CRN 22725)\</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>**Days/Time:** Monday, Wednesday, Friday, 1:00–1:50 PM\</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>**Location:** BSS 408</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">### Laboratory (Activity)</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>**Section:** DATA 322-11 (CRN 22726)\</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>**Day/Time:** Tuesday, 1:00–2:50 PM\</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>**Location:** BSS 313</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">### Final Exam</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>**Final Exam:** Wednesday, May 13, 2026, 12:40–2:30 PM\</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>**Location:** BSS 408</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>Please check Canvas and your Cal Poly Humboldt email regularly for course announcements and updates.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## Important Dates</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Date <span class="pp">|</span> Event <span class="pp">|</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="pp">|---------------------------------|---------------------------------------|</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **January 20** <span class="pp">|</span> Holiday (No class) <span class="pp">|</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **February 2** <span class="pp">|</span> Add/Drop Deadline without a serious and compelling reason <span class="pp">|</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> February 20 <span class="pp">|</span> Demo Mini-Project from 11-11:50 in BSS 166 <span class="pp">|</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> March 8 <span class="pp">|</span> Unsupervised Learning Project due <span class="pp">|</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> March 13 <span class="pp">|</span> Midterm 1 <span class="pp">|</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **March 16-20** <span class="pp">|</span> Spring Break (No classes) <span class="pp">|</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **March 31** <span class="pp">|</span> Cesar Chavez Day (No class) <span class="pp">|</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> May 10 <span class="pp">|</span> Supervised Learning Project due <span class="pp">|</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **May 13** <span class="pp">|</span> Final Exam: Wednesday, May 13, 2026, 12:40–2:30 PM, BSS 408 <span class="pp">|</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>**Note:** This schedule is subject to change. Any changes will be communicated through **Canvas announcements**.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="fu">## Instructor Information</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>**Instructor:** Dr. Rosanna Overholser\</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>**Email:** rho3\@humboldt.edu\</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>**Office Location:** BSS 334\</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>**Office Phone:** 707-826-4022</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>**Office Hours:**</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>Mondays 2:00–3:00 PM\</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>Wednesdays 12:00–12:50 PM\</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>Fridays 10:00–10:50 AM\</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Or by appointment</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>Please use your Cal Poly Humboldt email account to contact me.</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Description (Catalog Description)</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include supervised learning, unsupervised learning, and best practices in machine learning. The course draws from numerous case studies and applications, with a practical rather than theoretical emphasis.</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>**Weekly:** Lecture 3 hrs. Activity 2 hrs.\</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>**Prerequisites:** DATA 271, MATH 107, STAT 109</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>A minimum grade of C- is required for the course to count toward the Data Science major.</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="fu">## Student Learning Outcomes</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>(Note, students can find program learning outcomes on the program website, and institution learning outcomes here: https://academicprograms.humboldt.edu/content/baccalaureate-student-learning-outcomes)</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>**(1) Students will demonstrate computational skills to extract different types and quantities of data from multiple sources and create visualizations and other data products for various audiences. (ILO 3,4,7)**</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>In order to achieve PLO 1, students will demonstrate the following specific measurable behaviors:</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>(SLO 1) Students will extract quantitative and categorical data from a large public database, calculate relevant summary statistics, and present findings numerically and graphically for in-class individual and group data projects.</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>**(2) Students will demonstrate statistical knowledge to build mathematical models and ensure the validity of data and its analysis. (ILO 7)**</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>In order to achieve PLO 2, students will demonstrate the following specific measurable behaviors:</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>(SLO 2) Students will design a mathematical (logic) model to guide analysis and ensure valid and reliable results for in-class individual and group data projects.</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>**(5) Students will communicate effectively with a diverse range of audiences. (ILO 5,6)**</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>In order to achieve PLO 5, students will demonstrate the following specific measurable behaviors:</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>(SLO 5a) Students will prepare a written description of a mathematical model in which they explain the context, describe their methodology, analyze their data, and reach a conclusion that includes a discussion of its implications.</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>Additionally, one of students' two projects, communicated in written form, will be the application of Machine Learning algorithms (supervised and unsupervised, respectively) to a data set related to one of the following: sustainability, social justice, or Traditional Ecological Knowledge (TEK). This project supports ILOs (1) and (2).</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Learning Outcomes</span></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>By the end of this course, students will be able to:</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Recognize the characteristics of machine learning that make it useful for real-world problems.</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Explain how machine learning differs from inferential statistical modeling.</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Characterize machine learning algorithms as supervised and unsupervised.</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>Implement common machine learning algorithms using Python-based toolkits.</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="ss">5.  </span>Apply regression, classification, and clustering methods to real data sets.</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="ss">6.  </span>Evaluate model performance and select appropriate models based on context and goals.</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="ss">7.  </span>Communicate modeling choices, results, and limitations to a variety of audiences.</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="ss">8.  </span>Identify and discuss ethical considerations related to data collection, modeling, and algorithmic decision-making.</span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="fu">## Program &amp; Institutional Learning Outcomes</span></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>This course supports the Data Science Program Learning Outcomes and Cal Poly Humboldt's Institutional Learning Outcomes related to quantitative reasoning, critical thinking, communication, and ethical reasoning.</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Materials &amp; Workload</span></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>DATA 322 includes:</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Three weekly lecture meetings</span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>One weekly laboratory session</span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a>In this 4-unit course, students should expect to spend approximately **12 hours per week** on course-related work. This includes time in lecture (3 hours), lab time (2 hours), and time outside of class to complete readings, assignments, projects, and exam preparation (approximately 7 hours).</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a><span class="fu">## Required Materials</span></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a>**Textbook:**</span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">*An Introduction to Statistical Learning with Applications in Python*</span><span class="co">](https://www.statlearning.com/)</span></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a>Available free online or for purchase in print.</span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a>**Software:**</span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a>Python and commonly used data science libraries (installed on all campus computers)</span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a>**Other Technology:**</span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a>Regular access to a computer with reliable internet</span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a>Students without personal access to required technology may use campus computer labs and library resources.</span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="fu">## How to Succeed in This Course</span></span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a>Students enter DATA 322 with different backgrounds in statistics, mathematics, and programming. That's expected. You do not need to be an expert at the start of the semester to succeed in this course. What matters most is steady engagement and a willingness to practice, reflect, and ask questions.</span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a>Students who are successful in this course typically:</span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Attend lecture and lab regularly.**\</span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>    Class time is used to build intuition, practice ideas, and work through examples that are difficult to learn independently.</span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Participate actively in daily warm-ups.**\</span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a>    Warm-ups are designed to help you engage with your classmates and develop conceptual understanding and confidence before moving to more complex problems.</span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Use labs as a space to practice and make mistakes.**\</span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a>    Labs are meant for learning, not perfection. Comparing your work to posted results and reflecting on differences is an important part of the learning process.</span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Prepare consistently for weekly quizzes.**\</span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a>    Quizzes are short and predictable, but they require regular practice. Reviewing lecture notes, lab activities, and assigned textbook problems each week will help you succeed.</span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Start projects early and work iteratively.**\</span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>    Projects are most successful when you begin early, test ideas incrementally, and seek feedback along the way. I've deliberately chosen two projects that reflect significant problems with real applications of ML. At first glance, the datasets might appear simple but great care is required to build useful products out of them. Rather than tell you a solution to implement, I'm going to use our class time to guide class discussions so that students will be active participants in creating appropriate solutions.</span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Collaborate appropriately with classmates.**\</span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a>    Discussing ideas and approaches is encouraged, but all submitted work must reflect your own understanding unless otherwise specified.</span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Ask for help when you need it.**\</span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a>    If you are struggling with course material, please reach out during office hours, lab sessions, or by email. Seeking help early can make a significant difference.</span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a>As a general guideline, you should plan to spend approximately **three hours per week per unit** on course-related work, including time in class and time outside of class. For this 4-unit course, this corresponds to about **12 hours per week** total. Individual experiences will vary, but this can be a helpful frame of reference when planning your time.</span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Feedback &amp; Assessment</span></span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>Students will complete a variety of assessments designed to support regular practice, provide regular feedback, and evaluate mastery of machine learning concepts and methods.</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>Assessments in this course include:</span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Daily warm-up problems** during lecture (Mondays, Wednesdays, and Fridays).\</span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a>    These short activities are designed to help students engage with new concepts, build intuition, and practice explaining ideas with peers. Warm-ups are graded on participation.</span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Weekly programming labs**.\</span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a>    Labs provide guided, hands-on practice implementing machine learning methods using Python. Labs are intended as formative learning experiences. I'll provide desired outputs so students can check their work and reflect on their understanding before turning in their work. Labs will be graded on completion.</span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a>    Early in the semester, you will complete a **mini project** as part of the weekly labs. This project introduces the full workflow of an applied machine learning task in a simplified and supported setting. Using a provided Google Colab notebook, the class will modify an existing recommender system to form study groups based on survey responses collected from real participants.</span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a>    The goal of this mini project is not to produce perfect groupings, but to practice:</span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Designing questions that can be translated into quantitative features</span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Explore distance metrics</span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Applying and interpreting clustering algorithms</span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Working collaboratively with a shared product</span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Reflecting on modeling decisions and their consequences</span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a>    This experience is designed to make the larger course projects more approachable and to build confidence before tackling more complex open-ended problems.</span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Weekly quizzes** during lab sessions.\</span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a>    Quizzes assess understanding of both lab material and assigned practice problems. Quiz questions may include conceptual questions, mathematical calculations, interpretation of output or visualizations, and short problem-solving tasks. Quizzes are designed to encourage steady preparation and synthesis of ideas.</span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Two projects**.\</span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a>    Projects require students to apply machine learning methods to real data, justify modeling choices, evaluate performance, and communicate results in written form. Projects emphasize modeling choices, interpretation, and communication and may be used as part of a professional portfolio.</span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>**Unsupervised Learning Project:**\</span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a>        In this project, you will use unsupervised learning techniques to build a *major recommender system* for Cal Poly Humboldt using publicly available data. The goal is to explore and justify modeling choices, and communicate the resulting recommendations clearly and responsibly.</span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>**Supervised Learning Project:**\</span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a>        In this project, you will work with data from a one-dimensional simulation of a fusion reactor to develop a model to predict the onset of instabilities *before* they occur. This project emphasizes feature engineering, computational efficiency and valid model evaluation in an effort to help further research in California's renewable energy sector.</span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**One midterm exam and one final exam**.\</span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a>    Exams assess students' ability to reason about machine learning methods, interpret results, compare approaches, and understand limitations. Exams focus on conceptual understanding rather than memorization of code syntax.</span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a><span class="fu">## Grading</span></span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Component                      <span class="pp">|</span> Weight   <span class="pp">|</span></span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a><span class="pp">|--------------------------------|----------|</span></span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Daily Participation (Warm-ups) <span class="pp">|</span> 5%       <span class="pp">|</span></span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Weekly Quizzes                 <span class="pp">|</span> 25%      <span class="pp">|</span></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Weekly Labs                    <span class="pp">|</span> 15%      <span class="pp">|</span></span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Two Projects                   <span class="pp">|</span> 30%      <span class="pp">|</span></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Midterm Exam                   <span class="pp">|</span> 10%      <span class="pp">|</span></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Final Exam                     <span class="pp">|</span> 15%      <span class="pp">|</span></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Total**                      | **100%** <span class="pp">|</span></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a>Final letter grades will be assigned according to the following scale:</span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a>A: 93–100% <span class="sc">\|</span> A-: 90–92% <span class="sc">\|</span> B+: 87–89% <span class="sc">\|</span> B: 83–86% <span class="sc">\|</span> B-: 80–82% <span class="sc">\|</span> C+: 77–79% <span class="sc">\|</span> C: 73–76% <span class="sc">\|</span> C-: 70–72% <span class="sc">\|</span> D: 60–69% <span class="sc">\|</span> F: 0–59%</span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a>Grades are recorded in Canvas. Canvas grades are not official until finalized at the end of the semester.</span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a><span class="fu">## Attendance &amp; Participation</span></span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a>Regular attendance and active participation are expected and essential for success in this course. Attendance in lecture and lab will be reflected in participation activities and assignments.</span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a>If you must miss class, you are responsible for obtaining notes and keeping up with course material.</span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a><span class="fu">## Late or Missed Work Policies</span></span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Daily warm-ups** are graded on participation and cannot be made up if missed.</span>
+<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Weekly labs** are due on the posted deadlines in Canvas. Late submissions may be accepted in documented emergencies; otherwise, late work policies will be specified per lab.</span>
+<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Weekly quizzes** are administered during lab sessions. If you need to miss a quiz due to illness or other emergencies, please contact me to make an arrangement to take it at another time.</span>
+<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Projects** are due on the specified dates in Canvas. Late project policies will be specified per project.</span>
+<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**Exams** must be taken on the scheduled date unless arrangements are made in advance due to illness or emergency.</span>
+<span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a>Technology issues are not automatically considered valid excuses for late or missed work.</span>
+<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a><span class="fu">## Course Topics (Approximate Order)</span></span>
+<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Data preprocessing skills from DATA 271</span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Introduction to machine learning</span>
+<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Unsupervised learning</span>
+<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Traditional supervised learning methods</span>
+<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Model evaluation and validation</span>
+<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Modern supervised learning methods</span>
+<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Feature engineering &amp; computational efficiency</span>
+<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Ethical considerations and appropriate communication of results</span>
+<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a><span class="fu">## University Policies &amp; Resources</span></span>
+<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a>Students are responsible for reviewing the **Cal Poly Humboldt Syllabus Addendum**, which includes policies and resources related to:</span>
+<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Academic honesty</span>
+<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Disability accommodations</span>
+<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Emergency procedures</span>
+<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Title IX</span>
+<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Student conduct and support services</span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a>The Syllabus Addendum is available on the Cal Poly Humboldt website.</span>
+<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a><span class="fu">## Accommodations</span></span>
+<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-310"><a href="#cb1-310" aria-hidden="true" tabindex="-1"></a>Students who wish to request disability-related accommodations should contact the Student Disability Resource Center (SDRC) as early as possible and then email me your letter of accommodation.</span>
+<span id="cb1-311"><a href="#cb1-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-312"><a href="#cb1-312" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-313"><a href="#cb1-313" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-314"><a href="#cb1-314" aria-hidden="true" tabindex="-1"></a><span class="fu">## Classroom &amp; Online Conduct</span></span>
+<span id="cb1-315"><a href="#cb1-315" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-316"><a href="#cb1-316" aria-hidden="true" tabindex="-1"></a>Standards of respectful and professional behavior apply to all course interactions, including in-person classes, assignments, and email communication.</span>
+<span id="cb1-317"><a href="#cb1-317" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-318"><a href="#cb1-318" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-319"><a href="#cb1-319" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-320"><a href="#cb1-320" aria-hidden="true" tabindex="-1"></a><span class="fu">## Changes to the Syllabus</span></span>
+<span id="cb1-321"><a href="#cb1-321" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-322"><a href="#cb1-322" aria-hidden="true" tabindex="-1"></a>This syllabus is subject to change. Any changes will be communicated through Canvas announcements.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
