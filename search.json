@@ -1,38 +1,276 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DATA 322: Machine Learning for Data Science",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "Welcome to DATA 322: Machine Learning for Data Science!\nThis site contains all course materials, including the syllabus, schedule, lectures, assessments, and resources."
+    "text": "This page provides links to essential course resources including the textbook, Python software downloads, and reference materials.\n\n\nLectures - Access all course lectures organized by week and day.\n\n\n\nRequired Textbook: An Introduction to Statistical Learning with Applications in Python\nAvailable free online or for purchase in print. This textbook provides a broad and less technical treatment of key topics in statistical learning, with practical applications in Python.\n\n\n\nDATA 322 uses Python for machine learning and data analysis. You can use Python in several ways:\n\n\nDownload Python: Python.org\nPython is free and open-source. The base Python installation includes the core language and standard library.\n\nWindows: Download the installer from python.org\nMac: Python may be pre-installed, or download from python.org\nLinux: Install via your distribution’s package manager or from python.org\n\n\n\n\nCommonly used libraries for this course include: - numpy - Numerical computing - pandas - Data manipulation and analysis - scikit-learn - Machine learning algorithms - matplotlib - Data visualization - seaborn - Statistical data visualization\nInstall via pip: pip install numpy pandas scikit-learn matplotlib seaborn\n\n\n\nAccess Python in Google Colab: Google Colab\nGoogle Colab provides free access to Python in a cloud-based notebook environment with many data science libraries pre-installed. This is useful if you don’t want to install Python on your computer or need to work from different devices.\n\n\n\nInstall Jupyter: Jupyter Installation Guide\nJupyter Notebook is a popular environment for interactive Python development and data analysis.\n\nInstall Python first\nInstall Jupyter: pip install jupyter\nLaunch Jupyter: jupyter notebook\n\nNote: Python and commonly used data science libraries are installed on all campus computers, so you can use the computer labs if you prefer not to install software on your personal computer.\n\n\n\n\n\n\nPython Quick Reference - A quick reference guide for common Python commands and functions used in this course for machine learning and data analysis.\n\n\n\nMethods Map - A reference table of machine learning methods covered in the course, organized by topic.\n\n\n\n\n\n\n\nComputer Labs: Python and commonly used data science libraries are installed on all campus computers\nROSE (Reusable Office Supply Exchange): Free used computers may be available if you need a computer\n\n\n\n\n\nOffice Hours: See the Syllabus for instructor office hours\nCanvas: Check Canvas for announcements and course communications\nEmail: Contact the instructor at rho3@humboldt.edu"
   },
   {
-    "objectID": "index.html#quick-start",
-    "href": "index.html#quick-start",
-    "title": "DATA 322: Machine Learning for Data Science",
+    "objectID": "resources.html#lectures",
+    "href": "resources.html#lectures",
+    "title": "Resources",
+    "section": "",
+    "text": "Lectures - Access all course lectures organized by week and day."
+  },
+  {
+    "objectID": "resources.html#textbook",
+    "href": "resources.html#textbook",
+    "title": "Resources",
+    "section": "",
+    "text": "Required Textbook: An Introduction to Statistical Learning with Applications in Python\nAvailable free online or for purchase in print. This textbook provides a broad and less technical treatment of key topics in statistical learning, with practical applications in Python."
+  },
+  {
+    "objectID": "resources.html#python-software-downloads",
+    "href": "resources.html#python-software-downloads",
+    "title": "Resources",
+    "section": "",
+    "text": "DATA 322 uses Python for machine learning and data analysis. You can use Python in several ways:\n\n\nDownload Python: Python.org\nPython is free and open-source. The base Python installation includes the core language and standard library.\n\nWindows: Download the installer from python.org\nMac: Python may be pre-installed, or download from python.org\nLinux: Install via your distribution’s package manager or from python.org\n\n\n\n\nCommonly used libraries for this course include: - numpy - Numerical computing - pandas - Data manipulation and analysis - scikit-learn - Machine learning algorithms - matplotlib - Data visualization - seaborn - Statistical data visualization\nInstall via pip: pip install numpy pandas scikit-learn matplotlib seaborn\n\n\n\nAccess Python in Google Colab: Google Colab\nGoogle Colab provides free access to Python in a cloud-based notebook environment with many data science libraries pre-installed. This is useful if you don’t want to install Python on your computer or need to work from different devices.\n\n\n\nInstall Jupyter: Jupyter Installation Guide\nJupyter Notebook is a popular environment for interactive Python development and data analysis.\n\nInstall Python first\nInstall Jupyter: pip install jupyter\nLaunch Jupyter: jupyter notebook\n\nNote: Python and commonly used data science libraries are installed on all campus computers, so you can use the computer labs if you prefer not to install software on your personal computer."
+  },
+  {
+    "objectID": "resources.html#course-reference-materials",
+    "href": "resources.html#course-reference-materials",
+    "title": "Resources",
+    "section": "",
+    "text": "Python Quick Reference - A quick reference guide for common Python commands and functions used in this course for machine learning and data analysis.\n\n\n\nMethods Map - A reference table of machine learning methods covered in the course, organized by topic."
+  },
+  {
+    "objectID": "resources.html#additional-resources",
+    "href": "resources.html#additional-resources",
+    "title": "Resources",
+    "section": "",
+    "text": "Computer Labs: Python and commonly used data science libraries are installed on all campus computers\nROSE (Reusable Office Supply Exchange): Free used computers may be available if you need a computer\n\n\n\n\n\nOffice Hours: See the Syllabus for instructor office hours\nCanvas: Check Canvas for announcements and course communications\nEmail: Contact the instructor at rho3@humboldt.edu"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Course Schedule",
+    "section": "",
+    "text": "Note: This schedule is subject to change. Any changes will be communicated through Canvas announcements.\n\n\n\nWeek\nMon\nTue\nWed\nFri\n\n\n\n\n1 (Jan 20–23)\nHoliday\nLab 1\nLec\nLec\n\n\n2 (Jan 26–30)\nLec\nLab 2 + Quiz 1\nLec\nLec\n\n\n3 (Feb 2–6)\nLec\nLab 3 + Quiz 2\nLec\nLec\n\n\n4 (Feb 9–13)\nLec\nLab 4 + Quiz 3\nLec\nLec\n\n\n5 (Feb 16–20)\nLec\nLab 5 + Quiz 4\nLec\nDemo Mini-Project (11-11:50, BSS 166)\n\n\n6 (Feb 23–27)\nLec\nLab 6 + Quiz 5\nLec\nLec\n\n\n7 (Mar 2–6)\nLec\nLab 7 + Quiz 6\nLec\nLecProject 1 due Sun, Mar 8\n\n\n8 (Mar 9–13)\nLec\nQuiz 7\nLec\nMidterm 1\n\n\n— (Mar 16–20)\n—\n—\n—\n—\n\n\n9 (Mar 23–27)\nLec\nLab 8 + Quiz 8\nLec\nLec\n\n\n10 (Mar 30–Apr 3)\nLec\nHoliday (Cesar Chavez Day)\nLec\nLec\n\n\n11 (Apr 6–10)\nLec\nLab 9 + Quiz 9\nLec\nLec\n\n\n12 (Apr 13–17)\nLec\nLab 10 + Quiz 10\nLec\nLec\n\n\n13 (Apr 20–24)\nLec\nLab 11 + Quiz 11\nLec\nLec\n\n\n14 (Apr 27–May 1)\nLec\nLab 12 + Quiz 12\nLec\nLec\n\n\n15 (May 4–8)\nLec\nQuiz 13\nLec\nLecProject 2 due Sun, May 10\n\n\nFinals (May 11–15)\n—\n—\nFinal Exam\n—\n\n\n\nImportant Dates:\n\nJanuary 20 - Holiday (No class)\nFebruary 2 - Add/Drop Deadline without a serious and compelling reason\nFebruary 20 - Demo Mini-Project (11-11:50 AM, BSS 166)\nMarch 8 - Unsupervised Learning Project due\nMarch 13 - Midterm 1\nMarch 16-20 - Spring Break (No classes)\nMarch 31 - Cesar Chavez Day (No class on Tuesday)\nMay 10 - Supervised Learning Project due\nMay 13 - Final Exam (12:40–2:30 PM, BSS 408)"
+  },
+  {
+    "objectID": "schedule.html#spring-2026",
+    "href": "schedule.html#spring-2026",
+    "title": "Course Schedule",
+    "section": "",
+    "text": "Note: This schedule is subject to change. Any changes will be communicated through Canvas announcements.\n\n\n\nWeek\nMon\nTue\nWed\nFri\n\n\n\n\n1 (Jan 20–23)\nHoliday\nLab 1\nLec\nLec\n\n\n2 (Jan 26–30)\nLec\nLab 2 + Quiz 1\nLec\nLec\n\n\n3 (Feb 2–6)\nLec\nLab 3 + Quiz 2\nLec\nLec\n\n\n4 (Feb 9–13)\nLec\nLab 4 + Quiz 3\nLec\nLec\n\n\n5 (Feb 16–20)\nLec\nLab 5 + Quiz 4\nLec\nDemo Mini-Project (11-11:50, BSS 166)\n\n\n6 (Feb 23–27)\nLec\nLab 6 + Quiz 5\nLec\nLec\n\n\n7 (Mar 2–6)\nLec\nLab 7 + Quiz 6\nLec\nLecProject 1 due Sun, Mar 8\n\n\n8 (Mar 9–13)\nLec\nQuiz 7\nLec\nMidterm 1\n\n\n— (Mar 16–20)\n—\n—\n—\n—\n\n\n9 (Mar 23–27)\nLec\nLab 8 + Quiz 8\nLec\nLec\n\n\n10 (Mar 30–Apr 3)\nLec\nHoliday (Cesar Chavez Day)\nLec\nLec\n\n\n11 (Apr 6–10)\nLec\nLab 9 + Quiz 9\nLec\nLec\n\n\n12 (Apr 13–17)\nLec\nLab 10 + Quiz 10\nLec\nLec\n\n\n13 (Apr 20–24)\nLec\nLab 11 + Quiz 11\nLec\nLec\n\n\n14 (Apr 27–May 1)\nLec\nLab 12 + Quiz 12\nLec\nLec\n\n\n15 (May 4–8)\nLec\nQuiz 13\nLec\nLecProject 2 due Sun, May 10\n\n\nFinals (May 11–15)\n—\n—\nFinal Exam\n—\n\n\n\nImportant Dates:\n\nJanuary 20 - Holiday (No class)\nFebruary 2 - Add/Drop Deadline without a serious and compelling reason\nFebruary 20 - Demo Mini-Project (11-11:50 AM, BSS 166)\nMarch 8 - Unsupervised Learning Project due\nMarch 13 - Midterm 1\nMarch 16-20 - Spring Break (No classes)\nMarch 31 - Cesar Chavez Day (No class on Tuesday)\nMay 10 - Supervised Learning Project due\nMay 13 - Final Exam (12:40–2:30 PM, BSS 408)"
+  },
+  {
+    "objectID": "TEMPLATE_README.html",
+    "href": "TEMPLATE_README.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "TEMPLATE_README.html#quick-start",
+    "href": "TEMPLATE_README.html#quick-start",
+    "title": "",
     "section": "Quick Start",
-    "text": "Quick Start\n\nCourse Schedule - Weekly schedule and course materials\nCourse Syllabus - Detailed course information and policies\nLectures - All course lectures organized by week\nAssessments - Quizzes, exams, and projects\nResources - Textbook, Python downloads, and reference materials"
+    "text": "Quick Start\n\nCopy this template to create your course repository\nReplace all placeholders (see CUSTOMIZATION_CHECKLIST.md)\nCustomize content for your specific course\nSet up GitHub repositories (see GITHUB_SETUP.md)\nDeploy using GitHub Actions"
   },
   {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
-    "title": "DATA 322: Machine Learning for Data Science",
-    "section": "Course Overview",
-    "text": "Course Overview\nDATA 322: Machine Learning for Data Science (4 units) provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include supervised learning, unsupervised learning, and best practices in machine learning, with a practical emphasis on real-world applications.\nLecture: Monday, Wednesday, Friday, 1:00–1:50 PM, BSS 408\nLab: Tuesday, 1:00–2:50 PM, BSS 313\nProgram Requirement: Required for the Data Science major"
+    "objectID": "TEMPLATE_README.html#whats-included",
+    "href": "TEMPLATE_README.html#whats-included",
+    "title": "",
+    "section": "What’s Included",
+    "text": "What’s Included\n\nWebsite Structure\n\nHome Page (index.qmd) - Course overview and quick links\nSyllabus (syllabus.qmd) - Course information and policies\nSchedule (schedule.qmd) - Weekly schedule with links to materials\nLectures (lectures.qmd) - Organized lecture materials by week\nAssessments (assessments.qmd) - Overview of all assessments\nResources (resources.qmd) - Course resources and reference materials\nLicense (license.qmd) - Creative Commons license information\n\n\n\nFolder Structure\n\nactivities/ - Classroom activities\nassessments/ - Assessment overview page\nconcepts/ - Learning objectives and concepts\ndrafts/ - Draft materials (not published)\nexams/ - Exam files\nlabs/ - Lab assignments\nlectures/ - Individual lecture files\nlessons/ - Lesson materials\nproblems/ - Practice problems\nprojects/ - Project assignments\nquizzes/ - Quiz files\nscripts/ - Automation scripts for Canvas\nassets/ - CSS, images, data, PDFs\n\n\n\nFeatures\n\nDual Output Formats - HTML for web, PDF for printing\nResponsive Design - Works on desktop and mobile\nNavigation - Sidebar navigation with page TOC\nSearch - Built-in search functionality\nCode Highlighting - Syntax highlighting for code examples\nGitHub Actions - Automatic deployment to public repository\nCanvas Integration - Scripts for creating Canvas assignments and modules"
   },
   {
-    "objectID": "index.html#course-structure",
-    "href": "index.html#course-structure",
-    "title": "DATA 322: Machine Learning for Data Science",
-    "section": "Course Structure",
-    "text": "Course Structure\nIncludes daily warm-up problems during lecture, weekly programming labs, weekly quizzes during lab sessions, two major projects (Unsupervised Learning and Supervised Learning), one midterm exam, and a comprehensive final exam. Projects allow students to apply machine learning techniques to real data problems and may be used as part of a professional portfolio."
+    "objectID": "TEMPLATE_README.html#customization",
+    "href": "TEMPLATE_README.html#customization",
+    "title": "",
+    "section": "Customization",
+    "text": "Customization\n\nStep 1: Replace Placeholders\nUse the CUSTOMIZATION_CHECKLIST.md to systematically replace all placeholders:\n\nCOURSE_NUMBER - Your course number\nCOURSE_TITLE - Full course title\nSEMESTER_YEAR - Semester and year\nINSTRUCTOR_NAME - Your name\nINSTRUCTOR_EMAIL - Your email\nGITHUB_USERNAME - Your GitHub username\nCANVAS_COURSE_ID - Canvas course ID (if using Canvas)\nCANVAS_API_TOKEN - Canvas API token (if using Canvas)\n\n\n\nStep 2: Customize Content\n\nUpdate course description in index.qmd and syllabus.qmd\nCustomize schedule dates in schedule.qmd\nAdjust assessment structure in assessments.qmd\nAdd course-specific resources to resources.qmd\nCustomize license information in license.qmd\n\n\n\nStep 3: Set Up GitHub\nFollow the instructions in GITHUB_SETUP.md to:\n\nCreate private and public repositories\nConfigure GitHub Actions\nSet up GitHub Pages\nConfigure secrets for deployment\n\n\n\nStep 4: Test Locally\n# Preview the site\nquarto preview\n\n# Build the site\nquarto render\n\n\nStep 5: Deploy\nPush to your private repository and GitHub Actions will automatically:\n\nRender the Quarto site\nDeploy to your public repository\nPublish to GitHub Pages"
   },
   {
-    "objectID": "index.html#instructor-information",
-    "href": "index.html#instructor-information",
-    "title": "DATA 322: Machine Learning for Data Science",
-    "section": "Instructor Information",
-    "text": "Instructor Information\nInstructor: Dr. Rosanna Overholser\nOffice: BSS 334\nEmail: rho3@humboldt.edu\nOffice Hours: Mondays 2:00–3:00 PM, Wednesdays 12:00–12:50 PM, Fridays 10:00–10:50 AM, or by appointment"
+    "objectID": "TEMPLATE_README.html#canvas-integration-optional",
+    "href": "TEMPLATE_README.html#canvas-integration-optional",
+    "title": "",
+    "section": "Canvas Integration (Optional)",
+    "text": "Canvas Integration (Optional)\nIf you use Canvas, the scripts/ folder contains Python scripts to:\n\nCreate Canvas assignments with proper due dates\nLink assignments to your public course website\nCreate Canvas modules organized by week\nSet up assignment groups with weights\n\nSee scripts/README_CANVAS_API.md for setup instructions."
+  },
+  {
+    "objectID": "TEMPLATE_README.html#license",
+    "href": "TEMPLATE_README.html#license",
+    "title": "",
+    "section": "License",
+    "text": "License\nThis template is licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). You are free to use and adapt this template for non-commercial purposes with attribution."
+  },
+  {
+    "objectID": "TEMPLATE_README.html#support",
+    "href": "TEMPLATE_README.html#support",
+    "title": "",
+    "section": "Support",
+    "text": "Support\nFor issues or questions:\n\nCheck the CUSTOMIZATION_CHECKLIST.md for common tasks\nReview the README.md for repository-specific documentation\nConsult Quarto documentation: https://quarto.org/"
+  },
+  {
+    "objectID": "TEMPLATE_README.html#credits",
+    "href": "TEMPLATE_README.html#credits",
+    "title": "",
+    "section": "Credits",
+    "text": "Credits\nThis template is based on the STAT 109 course website structure and follows best practices for Quarto website development."
+  },
+  {
+    "objectID": "quizzes/quiz-2.html",
+    "href": "quizzes/quiz-2.html",
+    "title": "Quiz 2",
+    "section": "",
+    "text": "Quiz 2\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-1.html",
+    "href": "quizzes/quiz-1.html",
+    "title": "Quiz 1",
+    "section": "",
+    "text": "Quiz 1\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-13.html",
+    "href": "quizzes/quiz-13.html",
+    "title": "Quiz 13",
+    "section": "",
+    "text": "Quiz 13\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-9.html",
+    "href": "quizzes/quiz-9.html",
+    "title": "Quiz 9",
+    "section": "",
+    "text": "Quiz 9\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-7.html",
+    "href": "quizzes/quiz-7.html",
+    "title": "Quiz 7",
+    "section": "",
+    "text": "Quiz 7\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-11.html",
+    "href": "quizzes/quiz-11.html",
+    "title": "Quiz 11",
+    "section": "",
+    "text": "Quiz 11\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Holiday - No class\n\n\n\nLecture 1\n\n\n\nLecture 2\n\n\n\n\n\n\nLecture 3\n\n\n\nLecture 4\n\n\n\nLecture 5\n\n\n\n\n\n\nLecture 6\n\n\n\nLecture 7\n\n\n\nLecture 8\n\n\n\n\n\n\nLecture 9\n\n\n\nLecture 10\n\n\n\nLecture 11\n\n\n\n\n\n\nLecture 12\n\n\n\nLecture 13\n\n\n\nLecture 14\n\n\n\n\n\n\nLecture 15\n\n\n\nReview\n\n\n\nMidterm 1\n\n\n\n\n\n\nLecture 16\n\n\n\nLecture 17\n\n\n\nLecture 18\n\n\n\n\n\n\nLecture 19\n\n\n\nLecture 20\n\n\n\nLecture 21\n\n\n\n\n\n\nLecture 22\n\n\n\nLecture 23\n\n\n\nLecture 24\n\n\n\n\n\n\nLecture 25\n\n\n\nLecture 26\n\n\n\nLecture 27\n\n\n\n\n\n\nLecture 28\n\n\n\nLecture 29\n\n\n\nLecture 30\n\n\n\n\n\n\nLecture 31\n\n\n\nLecture 32\n\n\n\nLecture 33\n\n\n\n\n\n\nLecture 34\n\n\n\nReview\n\n\n\nMidterm 2\n\n\n\n\n\n\nLecture 35\n\n\n\nLecture 36\n\n\n\nLecture 37\n\n\n\n\n\n\nLecture 38\n\n\n\nReview\n\n\n\nReview"
+  },
+  {
+    "objectID": "lectures.html#week-1",
+    "href": "lectures.html#week-1",
+    "title": "Lectures",
+    "section": "",
+    "text": "Holiday - No class\n\n\n\nLecture 1\n\n\n\nLecture 2"
+  },
+  {
+    "objectID": "lectures.html#week-2",
+    "href": "lectures.html#week-2",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 3\n\n\n\nLecture 4\n\n\n\nLecture 5"
+  },
+  {
+    "objectID": "lectures.html#week-3",
+    "href": "lectures.html#week-3",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 6\n\n\n\nLecture 7\n\n\n\nLecture 8"
+  },
+  {
+    "objectID": "lectures.html#week-4",
+    "href": "lectures.html#week-4",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 9\n\n\n\nLecture 10\n\n\n\nLecture 11"
+  },
+  {
+    "objectID": "lectures.html#week-5",
+    "href": "lectures.html#week-5",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 12\n\n\n\nLecture 13\n\n\n\nLecture 14"
+  },
+  {
+    "objectID": "lectures.html#week-6",
+    "href": "lectures.html#week-6",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 15\n\n\n\nReview\n\n\n\nMidterm 1"
+  },
+  {
+    "objectID": "lectures.html#week-7",
+    "href": "lectures.html#week-7",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 16\n\n\n\nLecture 17\n\n\n\nLecture 18"
+  },
+  {
+    "objectID": "lectures.html#week-8",
+    "href": "lectures.html#week-8",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 19\n\n\n\nLecture 20\n\n\n\nLecture 21"
+  },
+  {
+    "objectID": "lectures.html#week-9",
+    "href": "lectures.html#week-9",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 22\n\n\n\nLecture 23\n\n\n\nLecture 24"
+  },
+  {
+    "objectID": "lectures.html#week-10",
+    "href": "lectures.html#week-10",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 25\n\n\n\nLecture 26\n\n\n\nLecture 27"
+  },
+  {
+    "objectID": "lectures.html#week-11",
+    "href": "lectures.html#week-11",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 28\n\n\n\nLecture 29\n\n\n\nLecture 30"
+  },
+  {
+    "objectID": "lectures.html#week-12",
+    "href": "lectures.html#week-12",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 31\n\n\n\nLecture 32\n\n\n\nLecture 33"
+  },
+  {
+    "objectID": "lectures.html#week-13",
+    "href": "lectures.html#week-13",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 34\n\n\n\nReview\n\n\n\nMidterm 2"
+  },
+  {
+    "objectID": "lectures.html#week-14",
+    "href": "lectures.html#week-14",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 35\n\n\n\nLecture 36\n\n\n\nLecture 37"
+  },
+  {
+    "objectID": "lectures.html#week-15",
+    "href": "lectures.html#week-15",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture 38\n\n\n\nReview\n\n\n\nReview"
+  },
+  {
+    "objectID": "exams/midterm-2.html",
+    "href": "exams/midterm-2.html",
+    "title": "Midterm 2",
+    "section": "",
+    "text": "Midterm 2\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
   },
   {
     "objectID": "assessments.html",
@@ -91,388 +329,906 @@
     "text": "Final letter grades will be assigned based on overall performance:\nA: 93-100% | A-: 90-92% | B+: 87-89% | B: 83-86% | B-: 80-82% | C+: 77-79% | C: 73-76% | C-: 70-72% | D: 60-69% | F: 0-59%\nA minimum grade of C- is required for the course to count toward the Data Science major."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Course Schedule",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
     "section": "",
-    "text": "Note: This schedule is subject to change. Any changes will be communicated through Canvas announcements.\n\n\n\nWeek\nMon\nTue\nWed\nFri\n\n\n\n\n1 (Jan 20–23)\nHoliday\nLab 1\nLec\nLec\n\n\n2 (Jan 26–30)\nLec\nLab 2 + Quiz 1\nLec\nLec\n\n\n3 (Feb 2–6)\nLec\nLab 3 + Quiz 2\nLec\nLec\n\n\n4 (Feb 9–13)\nLec\nLab 4 + Quiz 3\nLec\nLec\n\n\n5 (Feb 16–20)\nLec\nLab 5 + Quiz 4\nLec\nDemo Mini-Project (11-11:50, BSS 166)\n\n\n6 (Feb 23–27)\nLec\nLab 6 + Quiz 5\nLec\nLec\n\n\n7 (Mar 2–6)\nLec\nLab 7 + Quiz 6\nLec\nLecProject 1 due Sun, Mar 8\n\n\n8 (Mar 9–13)\nLec\nQuiz 7\nLec\nMidterm 1\n\n\n— (Mar 16–20)\n—\n—\n—\n—\n\n\n9 (Mar 23–27)\nLec\nLab 8 + Quiz 8\nLec\nLec\n\n\n10 (Mar 30–Apr 3)\nLec\nHoliday (Cesar Chavez Day)\nLec\nLec\n\n\n11 (Apr 6–10)\nLec\nLab 9 + Quiz 9\nLec\nLec\n\n\n12 (Apr 13–17)\nLec\nLab 10 + Quiz 10\nLec\nLec\n\n\n13 (Apr 20–24)\nLec\nLab 11 + Quiz 11\nLec\nLec\n\n\n14 (Apr 27–May 1)\nLec\nLab 12 + Quiz 12\nLec\nLec\n\n\n15 (May 4–8)\nLec\nQuiz 13\nLec\nLecProject 2 due Sun, May 10\n\n\nFinals (May 11–15)\n—\n—\nFinal Exam\n—\n\n\n\nImportant Dates:\n\nJanuary 20 - Holiday (No class)\nFebruary 2 - Add/Drop Deadline without a serious and compelling reason\nFebruary 20 - Demo Mini-Project (11-11:50 AM, BSS 166)\nMarch 8 - Unsupervised Learning Project due\nMarch 13 - Midterm 1\nMarch 16-20 - Spring Break (No classes)\nMarch 31 - Cesar Chavez Day (No class on Tuesday)\nMay 10 - Supervised Learning Project due\nMay 13 - Final Exam (12:40–2:30 PM, BSS 408)"
+    "text": "Unless otherwise noted, all materials on this website are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.\n\n\nYou are free to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit to Dr. Rosanna Overholser, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial — You may not use the material for commercial purposes.\n\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\n\n\nWhen using or adapting these materials, please provide attribution in the following format:\n\nThis work is based on materials by Dr. Rosanna Overholser for DATA 322: Machine Learning for Data Science, licensed under CC BY-NC 4.0.\n\n\n\n\nSome materials on this site are remixes or adaptations of other Creative Commons-licensed works. These materials will be individually noted with their original source and license information. When remixing these materials, you must comply with both this license and the original source license.\n\n\n\nIf you have questions about using these materials or need clarification on the license terms, please contact Dr. Rosanna Overholser at rho3@humboldt.edu."
   },
   {
-    "objectID": "schedule.html#spring-2026",
-    "href": "schedule.html#spring-2026",
-    "title": "Course Schedule",
+    "objectID": "license.html#creative-commons-attribution-noncommercial-4.0-international-cc-by-nc-4.0",
+    "href": "license.html#creative-commons-attribution-noncommercial-4.0-international-cc-by-nc-4.0",
+    "title": "License",
     "section": "",
-    "text": "Note: This schedule is subject to change. Any changes will be communicated through Canvas announcements.\n\n\n\nWeek\nMon\nTue\nWed\nFri\n\n\n\n\n1 (Jan 20–23)\nHoliday\nLab 1\nLec\nLec\n\n\n2 (Jan 26–30)\nLec\nLab 2 + Quiz 1\nLec\nLec\n\n\n3 (Feb 2–6)\nLec\nLab 3 + Quiz 2\nLec\nLec\n\n\n4 (Feb 9–13)\nLec\nLab 4 + Quiz 3\nLec\nLec\n\n\n5 (Feb 16–20)\nLec\nLab 5 + Quiz 4\nLec\nDemo Mini-Project (11-11:50, BSS 166)\n\n\n6 (Feb 23–27)\nLec\nLab 6 + Quiz 5\nLec\nLec\n\n\n7 (Mar 2–6)\nLec\nLab 7 + Quiz 6\nLec\nLecProject 1 due Sun, Mar 8\n\n\n8 (Mar 9–13)\nLec\nQuiz 7\nLec\nMidterm 1\n\n\n— (Mar 16–20)\n—\n—\n—\n—\n\n\n9 (Mar 23–27)\nLec\nLab 8 + Quiz 8\nLec\nLec\n\n\n10 (Mar 30–Apr 3)\nLec\nHoliday (Cesar Chavez Day)\nLec\nLec\n\n\n11 (Apr 6–10)\nLec\nLab 9 + Quiz 9\nLec\nLec\n\n\n12 (Apr 13–17)\nLec\nLab 10 + Quiz 10\nLec\nLec\n\n\n13 (Apr 20–24)\nLec\nLab 11 + Quiz 11\nLec\nLec\n\n\n14 (Apr 27–May 1)\nLec\nLab 12 + Quiz 12\nLec\nLec\n\n\n15 (May 4–8)\nLec\nQuiz 13\nLec\nLecProject 2 due Sun, May 10\n\n\nFinals (May 11–15)\n—\n—\nFinal Exam\n—\n\n\n\nImportant Dates:\n\nJanuary 20 - Holiday (No class)\nFebruary 2 - Add/Drop Deadline without a serious and compelling reason\nFebruary 20 - Demo Mini-Project (11-11:50 AM, BSS 166)\nMarch 8 - Unsupervised Learning Project due\nMarch 13 - Midterm 1\nMarch 16-20 - Spring Break (No classes)\nMarch 31 - Cesar Chavez Day (No class on Tuesday)\nMay 10 - Supervised Learning Project due\nMay 13 - Final Exam (12:40–2:30 PM, BSS 408)"
+    "text": "Unless otherwise noted, all materials on this website are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.\n\n\nYou are free to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\n\nUnder the following terms:\n\nAttribution — You must give appropriate credit to Dr. Rosanna Overholser, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial — You may not use the material for commercial purposes.\n\nNo additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\n\n\nWhen using or adapting these materials, please provide attribution in the following format:\n\nThis work is based on materials by Dr. Rosanna Overholser for DATA 322: Machine Learning for Data Science, licensed under CC BY-NC 4.0.\n\n\n\n\nSome materials on this site are remixes or adaptations of other Creative Commons-licensed works. These materials will be individually noted with their original source and license information. When remixing these materials, you must comply with both this license and the original source license.\n\n\n\nIf you have questions about using these materials or need clarification on the license terms, please contact Dr. Rosanna Overholser at rho3@humboldt.edu."
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html",
+    "href": "scripts/README_CANVAS_API.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#prerequisites",
+    "href": "scripts/README_CANVAS_API.html#prerequisites",
+    "title": "",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nPython 3 installed on your computer\nCanvas Personal Access Token\nCanvas Course ID"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#step-1-get-your-canvas-personal-access-token",
+    "href": "scripts/README_CANVAS_API.html#step-1-get-your-canvas-personal-access-token",
+    "title": "",
+    "section": "Step 1: Get Your Canvas Personal Access Token",
+    "text": "Step 1: Get Your Canvas Personal Access Token\n\nLog into Canvas\nGo to Account → Settings\nScroll down to Approved Integrations\nClick + New Access Token\nGive it a purpose (e.g., “STAT 109 Assignment Creation”)\nSet an expiration date (optional)\nClick Generate Token\nCopy the token immediately - you won’t be able to see it again!"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#step-2-find-your-course-id",
+    "href": "scripts/README_CANVAS_API.html#step-2-find-your-course-id",
+    "title": "",
+    "section": "Step 2: Find Your Course ID",
+    "text": "Step 2: Find Your Course ID\n\nGo to your STAT 109 course in Canvas\nLook at the URL - it will be something like: https://humboldt.instructure.com/courses/12345\nThe number at the end (e.g., 12345) is your Course ID"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#step-3-install-required-python-packages",
+    "href": "scripts/README_CANVAS_API.html#step-3-install-required-python-packages",
+    "title": "",
+    "section": "Step 3: Install Required Python Packages",
+    "text": "Step 3: Install Required Python Packages\npip install requests python-dateutil"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#step-4-configure-the-script",
+    "href": "scripts/README_CANVAS_API.html#step-4-configure-the-script",
+    "title": "",
+    "section": "Step 4: Configure the Script",
+    "text": "Step 4: Configure the Script\nEdit create_canvas_assignment.py and update these values at the top:\nCANVAS_API_URL = \"https://humboldt.instructure.com/api/v1\"  # Your Canvas instance\nCOURSE_ID = \"12345\"  # Your course ID from Step 2\nCANVAS_TOKEN = \"your-token-here\"  # Your token from Step 1\nPUBLIC_SITE_URL = \"https://roverhol.github.io/stat109-public\"  # Already set correctly\nSecurity Note: For production use, consider storing the token in an environment variable or config file that’s in .gitignore rather than hardcoding it."
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#step-5-test-with-lab-1",
+    "href": "scripts/README_CANVAS_API.html#step-5-test-with-lab-1",
+    "title": "",
+    "section": "Step 5: Test with Lab 1",
+    "text": "Step 5: Test with Lab 1\nRun the script to create Lab 1 assignment:\npython scripts/create_canvas_assignment.py --type lab --number 1\nOr if you want to override the config values:\npython scripts/create_canvas_assignment.py --type lab --number 1 --course-id 12345 --token your-token"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#what-the-script-does",
+    "href": "scripts/README_CANVAS_API.html#what-the-script-does",
+    "title": "",
+    "section": "What the Script Does",
+    "text": "What the Script Does\n\nCreates an assignment in Canvas with the correct name\nSets the due date based on the schedule\nAdds a description with a link to the public course website\nSets the assignment as unpublished by default (you can publish it in Canvas when ready)"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#assignment-details-created",
+    "href": "scripts/README_CANVAS_API.html#assignment-details-created",
+    "title": "",
+    "section": "Assignment Details Created",
+    "text": "Assignment Details Created\n\nLabs\n\nName: “Lab 1”, “Lab 2”, etc.\nDue Date: Tuesday at 11:59 PM (Week 2, 3, 4, etc.)\nSubmission Type: Online upload and text entry\nLink: Points to https://roverhol.github.io/stat109-public/labs/lab-1.html\n\n\n\nQuizzes\n\nName: “Quiz 1”, “Quiz 2”, etc.\nDue Date: Thursday at 12:00 PM (beginning of lab)\nSubmission Type: Online quiz\nLink: Points to https://roverhol.github.io/stat109-public/quizzes/quiz-1.html"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#next-steps",
+    "href": "scripts/README_CANVAS_API.html#next-steps",
+    "title": "",
+    "section": "Next Steps",
+    "text": "Next Steps\nAfter creating assignments: 1. Go to Canvas and review the created assignments 2. Adjust points, assignment groups, or other settings as needed 3. Publish assignments when ready 4. Add rubrics or additional instructions in Canvas if needed"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#troubleshooting",
+    "href": "scripts/README_CANVAS_API.html#troubleshooting",
+    "title": "",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\nError: “Course ID is required” - Make sure you’ve set COURSE_ID in the script or used --course-id\nError: “Canvas token is required” - Make sure you’ve set CANVAS_TOKEN in the script or used --token\nError: 401 Unauthorized - Check that your token is correct and hasn’t expired - Make sure you’re using the correct Canvas API URL\nError: 404 Not Found - Check that your Course ID is correct - Verify the Canvas API URL is correct for your institution"
+  },
+  {
+    "objectID": "scripts/README_CANVAS_API.html#security-best-practices",
+    "href": "scripts/README_CANVAS_API.html#security-best-practices",
+    "title": "",
+    "section": "Security Best Practices",
+    "text": "Security Best Practices\n\nDon’t commit your token to git - add scripts/.env or similar to .gitignore\nUse environment variables for sensitive data:\nimport os\nCANVAS_TOKEN = os.getenv(\"CANVAS_TOKEN\")\nSet token expiration dates when creating tokens\nUse minimal permissions - only create tokens with the permissions you need"
+  },
+  {
+    "objectID": "labs/lab-1.html",
+    "href": "labs/lab-1.html",
+    "title": "Lab 1",
+    "section": "",
+    "text": "Lab 1\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-13.html",
+    "href": "labs/lab-13.html",
+    "title": "Lab 13",
+    "section": "",
+    "text": "Lab 13\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-7.html",
+    "href": "labs/lab-7.html",
+    "title": "Lab 7",
+    "section": "",
+    "text": "Lab 7\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-5.html",
+    "href": "labs/lab-5.html",
+    "title": "Lab 5",
+    "section": "",
+    "text": "Lab 5\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-10.html",
+    "href": "labs/lab-10.html",
+    "title": "Lab 10",
+    "section": "",
+    "text": "Lab 10\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-3.html",
+    "href": "labs/lab-3.html",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Lab 3\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-6.html",
+    "href": "labs/lab-6.html",
+    "title": "Lab 6",
+    "section": "",
+    "text": "Lab 6\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "projects/project-1.html",
+    "href": "projects/project-1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Project 1\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "projects/project-5.html",
+    "href": "projects/project-5.html",
+    "title": "Project 5",
+    "section": "",
+    "text": "Project 5\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-17.html",
+    "href": "lectures/lecture-17.html",
+    "title": "Lecture 17",
+    "section": "",
+    "text": "Lecture 17\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/review-week-15-friday.html",
+    "href": "lectures/review-week-15-friday.html",
+    "title": "Review - Week 15 Friday",
+    "section": "",
+    "text": "Review - Week 15 Friday\nReview materials coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-19.html",
+    "href": "lectures/lecture-19.html",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "Lecture 19\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-28.html",
+    "href": "lectures/lecture-28.html",
+    "title": "Lecture 28",
+    "section": "",
+    "text": "Lecture 28\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-9.html",
+    "href": "lectures/lecture-9.html",
+    "title": "Lecture 9",
+    "section": "",
+    "text": "Lecture 9\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-36.html",
+    "href": "lectures/lecture-36.html",
+    "title": "Lecture 36",
+    "section": "",
+    "text": "Lecture 36\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-25.html",
+    "href": "lectures/lecture-25.html",
+    "title": "Lecture 25",
+    "section": "",
+    "text": "Lecture 25\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-24.html",
+    "href": "lectures/lecture-24.html",
+    "title": "Lecture 24",
+    "section": "",
+    "text": "Lecture 24\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-3.html",
+    "href": "lectures/lecture-3.html",
+    "title": "Lecture 3",
+    "section": "",
+    "text": "Lecture 3\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-34.html",
+    "href": "lectures/lecture-34.html",
+    "title": "Lecture 34",
+    "section": "",
+    "text": "Lecture 34\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-12.html",
+    "href": "lectures/lecture-12.html",
+    "title": "Lecture 12",
+    "section": "",
+    "text": "Lecture 12\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-33.html",
+    "href": "lectures/lecture-33.html",
+    "title": "Lecture 33",
+    "section": "",
+    "text": "Lecture 33\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-29.html",
+    "href": "lectures/lecture-29.html",
+    "title": "Lecture 29",
+    "section": "",
+    "text": "Lecture 29\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-37.html",
+    "href": "lectures/lecture-37.html",
+    "title": "Lecture 37",
+    "section": "",
+    "text": "Lecture 37\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-23.html",
+    "href": "lectures/lecture-23.html",
+    "title": "Lecture 23",
+    "section": "",
+    "text": "Lecture 23\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-18.html",
+    "href": "lectures/lecture-18.html",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "Lecture 18\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-27.html",
+    "href": "lectures/lecture-27.html",
+    "title": "Lecture 27",
+    "section": "",
+    "text": "Lecture 27\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-20.html",
+    "href": "lectures/lecture-20.html",
+    "title": "Lecture 20",
+    "section": "",
+    "text": "Lecture 20\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-7.html",
+    "href": "lectures/lecture-7.html",
+    "title": "Lecture 7",
+    "section": "",
+    "text": "Lecture 7\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-32.html",
+    "href": "lectures/lecture-32.html",
+    "title": "Lecture 32",
+    "section": "",
+    "text": "Lecture 32\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-21.html",
+    "href": "lectures/lecture-21.html",
+    "title": "Lecture 21",
+    "section": "",
+    "text": "Lecture 21\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "r-reference.html",
+    "href": "r-reference.html",
+    "title": "Python Quick Reference",
+    "section": "",
+    "text": "[Content to be added - Python commands and functions for machine learning]\n\n\n[Content to be added]\n\n\n\n[Content to be added]\n\n\n\n[Content to be added]\n\n\n\n[Content to be added]"
+  },
+  {
+    "objectID": "r-reference.html#r-import",
+    "href": "r-reference.html#r-import",
+    "title": "Python Quick Reference",
+    "section": "",
+    "text": "[Content to be added]"
+  },
+  {
+    "objectID": "r-reference.html#r-summaries",
+    "href": "r-reference.html#r-summaries",
+    "title": "Python Quick Reference",
+    "section": "",
+    "text": "[Content to be added]"
+  },
+  {
+    "objectID": "r-reference.html#r-plots",
+    "href": "r-reference.html#r-plots",
+    "title": "Python Quick Reference",
+    "section": "",
+    "text": "[Content to be added]"
+  },
+  {
+    "objectID": "r-reference.html#r-sim",
+    "href": "r-reference.html#r-sim",
+    "title": "Python Quick Reference",
+    "section": "",
+    "text": "[Content to be added]"
+  },
+  {
+    "objectID": "lectures/lecture-16.html",
+    "href": "lectures/lecture-16.html",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "Lecture 16\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-22.html",
+    "href": "lectures/lecture-22.html",
+    "title": "Lecture 22",
+    "section": "",
+    "text": "Lecture 22\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-35.html",
+    "href": "lectures/lecture-35.html",
+    "title": "Lecture 35",
+    "section": "",
+    "text": "Lecture 35\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-38.html",
+    "href": "lectures/lecture-38.html",
+    "title": "Lecture 38",
+    "section": "",
+    "text": "Lecture 38\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/review-week-13-wednesday.html",
+    "href": "lectures/review-week-13-wednesday.html",
+    "title": "Review - Week 13 Wednesday",
+    "section": "",
+    "text": "Review - Week 13 Wednesday\nReview materials coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html",
+    "href": "lectures/lecture-10.html",
+    "title": "Lecture 10",
+    "section": "",
+    "text": "Lecture 10\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/review-week-15-wednesday.html",
+    "href": "lectures/review-week-15-wednesday.html",
+    "title": "Review - Week 15 Wednesday",
+    "section": "",
+    "text": "Review - Week 15 Wednesday\nReview materials coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-5.html",
+    "href": "lectures/lecture-5.html",
+    "title": "Lecture 5",
+    "section": "",
+    "text": "Lecture 5\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-30.html",
+    "href": "lectures/lecture-30.html",
+    "title": "Lecture 30",
+    "section": "",
+    "text": "Lecture 30\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-6.html",
+    "href": "lectures/lecture-6.html",
+    "title": "Lecture 6",
+    "section": "",
+    "text": "Lecture 6\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-8.html",
+    "href": "lectures/lecture-8.html",
+    "title": "Lecture 8",
+    "section": "",
+    "text": "Lecture 8\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-2.html",
+    "href": "lectures/lecture-2.html",
+    "title": "Lecture 2",
+    "section": "",
+    "text": "Lecture 2\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-11.html",
+    "href": "lectures/lecture-11.html",
+    "title": "Lecture 11",
+    "section": "",
+    "text": "Lecture 11\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-15.html",
+    "href": "lectures/lecture-15.html",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Lecture 15\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-26.html",
+    "href": "lectures/lecture-26.html",
+    "title": "Lecture 26",
+    "section": "",
+    "text": "Lecture 26\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-14.html",
+    "href": "lectures/lecture-14.html",
+    "title": "Lecture 14",
+    "section": "",
+    "text": "Lecture 14\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/review-week-6-wednesday.html",
+    "href": "lectures/review-week-6-wednesday.html",
+    "title": "Review - Week 6 Wednesday",
+    "section": "",
+    "text": "Review - Week 6 Wednesday\nReview materials coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-31.html",
+    "href": "lectures/lecture-31.html",
+    "title": "Lecture 31",
+    "section": "",
+    "text": "Lecture 31\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-1.html",
+    "href": "lectures/lecture-1.html",
+    "title": "Lecture 1",
+    "section": "",
+    "text": "Lecture 1\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-4.html",
+    "href": "lectures/lecture-4.html",
+    "title": "Lecture 4",
+    "section": "",
+    "text": "Lecture 4\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "lectures/lecture-13.html",
+    "href": "lectures/lecture-13.html",
+    "title": "Lecture 13",
+    "section": "",
+    "text": "Lecture 13\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "projects/project-2.html",
+    "href": "projects/project-2.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "Project 2\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "projects/project-4.html",
+    "href": "projects/project-4.html",
+    "title": "Project 4",
+    "section": "",
+    "text": "Project 4\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "projects/project-3.html",
+    "href": "projects/project-3.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "Project 3\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-8.html",
+    "href": "labs/lab-8.html",
+    "title": "Lab 8",
+    "section": "",
+    "text": "Lab 8\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-2.html",
+    "href": "labs/lab-2.html",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Lab 2\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-9.html",
+    "href": "labs/lab-9.html",
+    "title": "Lab 9",
+    "section": "",
+    "text": "Lab 9\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-4.html",
+    "href": "labs/lab-4.html",
+    "title": "Lab 4",
+    "section": "",
+    "text": "Lab 4\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-11.html",
+    "href": "labs/lab-11.html",
+    "title": "Lab 11",
+    "section": "",
+    "text": "Lab 11\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "labs/lab-12.html",
+    "href": "labs/lab-12.html",
+    "title": "Lab 12",
+    "section": "",
+    "text": "Lab 12\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DATA 322: Machine Learning for Data Science",
+    "section": "",
+    "text": "Welcome to DATA 322: Machine Learning for Data Science!\nThis site contains all course materials, including the syllabus, schedule, lectures, assessments, and resources."
+  },
+  {
+    "objectID": "index.html#quick-start",
+    "href": "index.html#quick-start",
+    "title": "DATA 322: Machine Learning for Data Science",
+    "section": "Quick Start",
+    "text": "Quick Start\n\nCourse Schedule - Weekly schedule and course materials\nCourse Syllabus - Detailed course information and policies\nLectures - All course lectures organized by week\nAssessments - Quizzes, exams, and projects\nResources - Textbook, Python downloads, and reference materials"
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "DATA 322: Machine Learning for Data Science",
+    "section": "Course Overview",
+    "text": "Course Overview\nDATA 322: Machine Learning for Data Science (4 units) provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include supervised learning, unsupervised learning, and best practices in machine learning, with a practical emphasis on real-world applications.\nLecture: Monday, Wednesday, Friday, 1:00–1:50 PM, BSS 408\nLab: Tuesday, 1:00–2:50 PM, BSS 313\nProgram Requirement: Required for the Data Science major"
+  },
+  {
+    "objectID": "index.html#course-structure",
+    "href": "index.html#course-structure",
+    "title": "DATA 322: Machine Learning for Data Science",
+    "section": "Course Structure",
+    "text": "Course Structure\nIncludes daily warm-up problems during lecture, weekly programming labs, weekly quizzes during lab sessions, two major projects (Unsupervised Learning and Supervised Learning), one midterm exam, and a comprehensive final exam. Projects allow students to apply machine learning techniques to real data problems and may be used as part of a professional portfolio."
+  },
+  {
+    "objectID": "index.html#instructor-information",
+    "href": "index.html#instructor-information",
+    "title": "DATA 322: Machine Learning for Data Science",
+    "section": "Instructor Information",
+    "text": "Instructor Information\nInstructor: Dr. Rosanna Overholser\nOffice: BSS 334\nEmail: rho3@humboldt.edu\nOffice Hours: Mondays 2:00–3:00 PM, Wednesdays 12:00–12:50 PM, Fridays 10:00–10:50 AM, or by appointment"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html",
+    "href": "GITHUB_SETUP.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html#step-1-create-github-repositories",
+    "href": "GITHUB_SETUP.html#step-1-create-github-repositories",
+    "title": "",
+    "section": "Step 1: Create GitHub Repositories",
+    "text": "Step 1: Create GitHub Repositories\n\nCreate the private repository:\n\nGo to GitHub and create a new repository named data322-private\nMake it private\nDo NOT initialize with README, .gitignore, or license\nCopy the repository URL\n\nCreate the public repository:\n\nGo to GitHub and create a new repository named data322-public\nMake it public\nDo NOT initialize with README, .gitignore, or license\nCopy the repository URL"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html#step-2-initialize-local-repositories",
+    "href": "GITHUB_SETUP.html#step-2-initialize-local-repositories",
+    "title": "",
+    "section": "Step 2: Initialize Local Repositories",
+    "text": "Step 2: Initialize Local Repositories\n\nInitialize data322-private:\ncd data322-private\ngit init\ngit add .\ngit commit -m \"Initial commit: DATA 322 course structure\"\ngit branch -M main\ngit remote add origin https://github.com/roverhol/data322-private.git\ngit push -u origin main\nInitialize data322-public:\ncd ../data322-public\ngit init\ngit commit --allow-empty -m \"Initial commit: Public website\"\ngit branch -M main\ngit remote add origin https://github.com/roverhol/data322-public.git\ngit push -u origin main"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html#step-3-configure-github-actions",
+    "href": "GITHUB_SETUP.html#step-3-configure-github-actions",
+    "title": "",
+    "section": "Step 3: Configure GitHub Actions",
+    "text": "Step 3: Configure GitHub Actions\nThe GitHub Actions workflow in .github/workflows/quarto-publish.yml needs to be updated with your repository information:\n\nUpdate the workflow file:\n\nOpen .github/workflows/quarto-publish.yml\nReplace [OWNER] with your GitHub username\nThe workflow will use GITHUB_TOKEN automatically (no secrets needed)\n\nAlternative: Use Personal Access Token (if needed):\n\nIf you need more permissions, create a Personal Access Token (PAT)\nGo to GitHub Settings &gt; Developer settings &gt; Personal access tokens &gt; Tokens (classic)\nCreate a token with repo scope\nAdd it as a secret named GH_PAT in the private repository settings\nUpdate the workflow to use ${{ secrets.GH_PAT }} instead of ${{ secrets.GITHUB_TOKEN }}"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html#step-4-enable-github-pages",
+    "href": "GITHUB_SETUP.html#step-4-enable-github-pages",
+    "title": "",
+    "section": "Step 4: Enable GitHub Pages",
+    "text": "Step 4: Enable GitHub Pages\n\nGo to the stat109-public repository settings\nNavigate to Pages\nSource: Deploy from a branch\nBranch: main / / (root)\nSave"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html#step-5-test-deployment",
+    "href": "GITHUB_SETUP.html#step-5-test-deployment",
+    "title": "",
+    "section": "Step 5: Test Deployment",
+    "text": "Step 5: Test Deployment\n\nMake a small change to any .qmd file in stat109-private\nCommit and push:\ngit add .\ngit commit -m \"Test deployment\"\ngit push\nCheck the Actions tab in GitHub to see the workflow run\nAfter a few minutes, check the public repository - it should have the rendered files\nVisit the GitHub Pages URL to see the live site"
+  },
+  {
+    "objectID": "GITHUB_SETUP.html#troubleshooting",
+    "href": "GITHUB_SETUP.html#troubleshooting",
+    "title": "",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nWorkflow fails: Check the Actions tab for error messages\nPages not updating: Make sure GitHub Pages is enabled and pointing to the main branch\nPermission errors: Ensure the workflow has write permissions (check repository settings &gt; Actions &gt; General &gt; Workflow permissions)"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html",
+    "href": "CUSTOMIZATION_CHECKLIST.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#placeholders-to-replace",
+    "href": "CUSTOMIZATION_CHECKLIST.html#placeholders-to-replace",
+    "title": "",
+    "section": "Placeholders to Replace",
+    "text": "Placeholders to Replace\nSearch and replace the following placeholders throughout the repository:\n\nCOURSE_NUMBER - Your course number (e.g., “STAT 109”, “MATH 101”)\nCOURSE_TITLE - Full course title (e.g., “Introductory Biostatistics”)\nSEMESTER_YEAR - Semester and year (e.g., “Spring 2026”, “Fall 2025”)\nINSTRUCTOR_NAME - Your name (e.g., “Dr. Jane Smith”)\nINSTRUCTOR_EMAIL - Your email address\nGITHUB_USERNAME - Your GitHub username\nCANVAS_COURSE_ID - Your Canvas course ID (found in Canvas URL)\nCANVAS_API_TOKEN - Your Canvas Personal Access Token (keep secure!)"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#files-to-customize",
+    "href": "CUSTOMIZATION_CHECKLIST.html#files-to-customize",
+    "title": "",
+    "section": "Files to Customize",
+    "text": "Files to Customize\n\nCore Configuration Files\n\n_quarto.yml - Replace COURSE_NUMBER and COURSE_TITLE in title\nREADME.md - Already has template note, customize course-specific content\n.github/workflows/quarto-publish.yml - Replace COURSE_NUMBER-public with your public repo name\n\n\n\nMain Pages\n\nindex.qmd - Replace all placeholders, customize course description, instructor info\nsyllabus.qmd - Replace all placeholders, customize course information, policies\nschedule.qmd - Replace semester, customize all dates and weeks\nassessments.qmd - Review and customize assessment structure\nlectures.qmd - Review structure, customize as needed\nresources.qmd - Customize resources for your course\nlicense.qmd - Replace instructor name and course reference\n\n\n\nScripts\n\nscripts/create_canvas_assignment.py - Replace CANVAS_COURSE_ID, CANVAS_API_TOKEN, and PUBLIC_SITE_URL\nscripts/create_canvas_modules.py - Replace CANVAS_COURSE_ID, CANVAS_API_TOKEN, and PUBLIC_SITE_URL\nscripts/README_CANVAS_API.md - Review and update with your Canvas instance URL\n\n\n\nDocumentation\n\nGITHUB_SETUP.md - Replace COURSE_NUMBER and GITHUB_USERNAME with your values"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#additional-customization-tasks",
+    "href": "CUSTOMIZATION_CHECKLIST.html#additional-customization-tasks",
+    "title": "",
+    "section": "Additional Customization Tasks",
+    "text": "Additional Customization Tasks\n\nCustomize course description in index.qmd and syllabus.qmd\nUpdate schedule dates in schedule.qmd to match your semester\nCustomize assessment structure in assessments.qmd if different from template\nUpdate Canvas assignment dates in scripts/create_canvas_assignment.py if needed\nCustomize resources page with course-specific materials\nUpdate license information if using a different license\nReview and customize navigation in _quarto.yml if needed\nAdd course-specific content to assessment files (labs, quizzes, projects, exams, lectures)"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#testing",
+    "href": "CUSTOMIZATION_CHECKLIST.html#testing",
+    "title": "",
+    "section": "Testing",
+    "text": "Testing\n\nTest local rendering: quarto preview\nTest full build: quarto render\nVerify all links work correctly\nCheck that PDFs render correctly\nTest GitHub Actions workflow after setting up repositories\nVerify public site displays correctly"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#github-setup",
+    "href": "CUSTOMIZATION_CHECKLIST.html#github-setup",
+    "title": "",
+    "section": "GitHub Setup",
+    "text": "GitHub Setup\n\nCreate private repository: COURSE_NUMBER-private\nCreate public repository: COURSE_NUMBER-public\nSet up GitHub Pages for public repository\nCreate GitHub Personal Access Token (PAT) with repo scope\nAdd PAT as secret GH_PAT in private repository settings\nPush code to private repository\nVerify GitHub Actions workflow runs successfully\nVerify public site is accessible"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#canvas-setup-optional",
+    "href": "CUSTOMIZATION_CHECKLIST.html#canvas-setup-optional",
+    "title": "",
+    "section": "Canvas Setup (Optional)",
+    "text": "Canvas Setup (Optional)\n\nGet Canvas course ID from Canvas URL\nCreate Canvas Personal Access Token\nUpdate Canvas API scripts with course ID and token\nTest Canvas assignment creation script\nTest Canvas module creation script\nCreate Canvas assignment groups if needed\nSet up Canvas modules"
+  },
+  {
+    "objectID": "CUSTOMIZATION_CHECKLIST.html#notes",
+    "href": "CUSTOMIZATION_CHECKLIST.html#notes",
+    "title": "",
+    "section": "Notes",
+    "text": "Notes\n\nUse your editor’s “Find and Replace” feature to quickly replace placeholders\nRemember to keep CANVAS_API_TOKEN secure - don’t commit it to git (it’s in .gitignore)\nTest everything locally before deploying\nKeep a backup of your customized files"
+  },
+  {
+    "objectID": "exams/final-exam.html",
+    "href": "exams/final-exam.html",
+    "title": "Final Exam",
+    "section": "",
+    "text": "Final Exam\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "exams/midterm-1.html",
+    "href": "exams/midterm-1.html",
+    "title": "Midterm 1",
+    "section": "",
+    "text": "Midterm 1\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-6.html",
+    "href": "quizzes/quiz-6.html",
+    "title": "Quiz 6",
+    "section": "",
+    "text": "Quiz 6\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-5.html",
+    "href": "quizzes/quiz-5.html",
+    "title": "Quiz 5",
+    "section": "",
+    "text": "Quiz 5\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-3.html",
+    "href": "quizzes/quiz-3.html",
+    "title": "Quiz 3",
+    "section": "",
+    "text": "Quiz 3\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-10.html",
+    "href": "quizzes/quiz-10.html",
+    "title": "Quiz 10",
+    "section": "",
+    "text": "Quiz 10\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-8.html",
+    "href": "quizzes/quiz-8.html",
+    "title": "Quiz 8",
+    "section": "",
+    "text": "Quiz 8\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-4.html",
+    "href": "quizzes/quiz-4.html",
+    "title": "Quiz 4",
+    "section": "",
+    "text": "Quiz 4\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
+  },
+  {
+    "objectID": "quizzes/quiz-12.html",
+    "href": "quizzes/quiz-12.html",
+    "title": "Quiz 12",
+    "section": "",
+    "text": "Quiz 12\nInstructions coming soon.\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
   },
   {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Cal Poly Humboldt — Spring 2026\n\n\n\n\nCourse Number: DATA 322\nCourse Title: Machine Learning for Data Science\nUnits: 4\nSemester: Spring 2026\nMode of Instruction: In-person\nProgram Requirement: Required for the Data Science major\n\n\nSection: DATA 322-10 (CRN 22725)\nDays/Time: Monday, Wednesday, Friday, 1:00–1:50 PM\nLocation: BSS 408\n\n\n\nSection: DATA 322-11 (CRN 22726)\nDay/Time: Tuesday, 1:00–2:50 PM\nLocation: BSS 313\n\n\n\nFinal Exam: Wednesday, May 13, 2026, 12:40–2:30 PM\nLocation: BSS 408\nPlease check Canvas and your Cal Poly Humboldt email regularly for course announcements and updates.\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nEvent\n\n\n\n\nJanuary 20\nHoliday (No class)\n\n\nFebruary 2\nAdd/Drop Deadline without a serious and compelling reason\n\n\nFebruary 20\nDemo Mini-Project from 11-11:50 in BSS 166\n\n\nMarch 8\nUnsupervised Learning Project due\n\n\nMarch 13\nMidterm 1\n\n\nMarch 16-20\nSpring Break (No classes)\n\n\nMarch 31\nCesar Chavez Day (No class)\n\n\nMay 10\nSupervised Learning Project due\n\n\nMay 13\nFinal Exam: Wednesday, May 13, 2026, 12:40–2:30 PM, BSS 408\n\n\n\nNote: This schedule is subject to change. Any changes will be communicated through Canvas announcements.\n\n\n\n\nInstructor: Dr. Rosanna Overholser\nEmail: rho3@humboldt.edu\nOffice Location: BSS 334\nOffice Phone: 707-826-4022\nOffice Hours:\nMondays 2:00–3:00 PM\nWednesdays 12:00–12:50 PM\nFridays 10:00–10:50 AM\nOr by appointment\nPlease use your Cal Poly Humboldt email account to contact me.\n\n\n\n\nThis course provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include supervised learning, unsupervised learning, and best practices in machine learning. The course draws from numerous case studies and applications, with a practical rather than theoretical emphasis.\nWeekly: Lecture 3 hrs. Activity 2 hrs.\nPrerequisites: DATA 271, MATH 107, STAT 109\nA minimum grade of C- is required for the course to count toward the Data Science major.\n\n\n\n\n(Note, students can find program learning outcomes on the program website, and institution learning outcomes here: https://academicprograms.humboldt.edu/content/baccalaureate-student-learning-outcomes)\n(1) Students will demonstrate computational skills to extract different types and quantities of data from multiple sources and create visualizations and other data products for various audiences. (ILO 3,4,7)\nIn order to achieve PLO 1, students will demonstrate the following specific measurable behaviors:\n\n(SLO 1) Students will extract quantitative and categorical data from a large public database, calculate relevant summary statistics, and present findings numerically and graphically for in-class individual and group data projects.\n\n(2) Students will demonstrate statistical knowledge to build mathematical models and ensure the validity of data and its analysis. (ILO 7)\nIn order to achieve PLO 2, students will demonstrate the following specific measurable behaviors:\n\n(SLO 2) Students will design a mathematical (logic) model to guide analysis and ensure valid and reliable results for in-class individual and group data projects.\n\n(5) Students will communicate effectively with a diverse range of audiences. (ILO 5,6)\nIn order to achieve PLO 5, students will demonstrate the following specific measurable behaviors:\n\n(SLO 5a) Students will prepare a written description of a mathematical model in which they explain the context, describe their methodology, analyze their data, and reach a conclusion that includes a discussion of its implications.\n\nAdditionally, one of students’ two projects, communicated in written form, will be the application of Machine Learning algorithms (supervised and unsupervised, respectively) to a data set related to one of the following: sustainability, social justice, or Traditional Ecological Knowledge (TEK). This project supports ILOs (1) and (2).\n\n\n\n\nBy the end of this course, students will be able to:\n\nRecognize the characteristics of machine learning that make it useful for real-world problems.\nExplain how machine learning differs from inferential statistical modeling.\nCharacterize machine learning algorithms as supervised and unsupervised.\nImplement common machine learning algorithms using Python-based toolkits.\nApply regression, classification, and clustering methods to real data sets.\nEvaluate model performance and select appropriate models based on context and goals.\nCommunicate modeling choices, results, and limitations to a variety of audiences.\nIdentify and discuss ethical considerations related to data collection, modeling, and algorithmic decision-making.\n\n\n\n\n\nThis course supports the Data Science Program Learning Outcomes and Cal Poly Humboldt’s Institutional Learning Outcomes related to quantitative reasoning, critical thinking, communication, and ethical reasoning.\n\n\n\n\nDATA 322 includes:\n\nThree weekly lecture meetings\nOne weekly laboratory session\n\nIn this 4-unit course, students should expect to spend approximately 12 hours per week on course-related work. This includes time in lecture (3 hours), lab time (2 hours), and time outside of class to complete readings, assignments, projects, and exam preparation (approximately 7 hours).\n\n\n\n\nTextbook:\nAn Introduction to Statistical Learning with Applications in Python\nAvailable free online or for purchase in print.\nSoftware:\nPython and commonly used data science libraries (installed on all campus computers)\nOther Technology:\nRegular access to a computer with reliable internet\nStudents without personal access to required technology may use campus computer labs and library resources.\n\n\n\n\nStudents enter DATA 322 with different backgrounds in statistics, mathematics, and programming. That’s expected. You do not need to be an expert at the start of the semester to succeed in this course. What matters most is steady engagement and a willingness to practice, reflect, and ask questions.\nStudents who are successful in this course typically:\n\nAttend lecture and lab regularly.\nClass time is used to build intuition, practice ideas, and work through examples that are difficult to learn independently.\nParticipate actively in daily warm-ups.\nWarm-ups are designed to help you engage with your classmates and develop conceptual understanding and confidence before moving to more complex problems.\nUse labs as a space to practice and make mistakes.\nLabs are meant for learning, not perfection. Comparing your work to posted results and reflecting on differences is an important part of the learning process.\nPrepare consistently for weekly quizzes.\nQuizzes are short and predictable, but they require regular practice. Reviewing lecture notes, lab activities, and assigned textbook problems each week will help you succeed.\nStart projects early and work iteratively.\nProjects are most successful when you begin early, test ideas incrementally, and seek feedback along the way. I’ve deliberately chosen two projects that reflect significant problems with real applications of ML. At first glance, the datasets might appear simple but great care is required to build useful products out of them. Rather than tell you a solution to implement, I’m going to use our class time to guide class discussions so that students will be active participants in creating appropriate solutions.\nCollaborate appropriately with classmates.\nDiscussing ideas and approaches is encouraged, but all submitted work must reflect your own understanding unless otherwise specified.\nAsk for help when you need it.\nIf you are struggling with course material, please reach out during office hours, lab sessions, or by email. Seeking help early can make a significant difference.\n\nAs a general guideline, you should plan to spend approximately three hours per week per unit on course-related work, including time in class and time outside of class. For this 4-unit course, this corresponds to about 12 hours per week total. Individual experiences will vary, but this can be a helpful frame of reference when planning your time.\n\n\n\n\nStudents will complete a variety of assessments designed to support regular practice, provide regular feedback, and evaluate mastery of machine learning concepts and methods.\nAssessments in this course include:\n\nDaily warm-up problems during lecture (Mondays, Wednesdays, and Fridays).\nThese short activities are designed to help students engage with new concepts, build intuition, and practice explaining ideas with peers. Warm-ups are graded on participation.\nWeekly programming labs.\nLabs provide guided, hands-on practice implementing machine learning methods using Python. Labs are intended as formative learning experiences. I’ll provide desired outputs so students can check their work and reflect on their understanding before turning in their work. Labs will be graded on completion.\nEarly in the semester, you will complete a mini project as part of the weekly labs. This project introduces the full workflow of an applied machine learning task in a simplified and supported setting. Using a provided Google Colab notebook, the class will modify an existing recommender system to form study groups based on survey responses collected from real participants.\nThe goal of this mini project is not to produce perfect groupings, but to practice:\n\nDesigning questions that can be translated into quantitative features\nExplore distance metrics\nApplying and interpreting clustering algorithms\nWorking collaboratively with a shared product\nReflecting on modeling decisions and their consequences\n\nThis experience is designed to make the larger course projects more approachable and to build confidence before tackling more complex open-ended problems.\nWeekly quizzes during lab sessions.\nQuizzes assess understanding of both lab material and assigned practice problems. Quiz questions may include conceptual questions, mathematical calculations, interpretation of output or visualizations, and short problem-solving tasks. Quizzes are designed to encourage steady preparation and synthesis of ideas.\nTwo projects.\nProjects require students to apply machine learning methods to real data, justify modeling choices, evaluate performance, and communicate results in written form. Projects emphasize modeling choices, interpretation, and communication and may be used as part of a professional portfolio.\n\nUnsupervised Learning Project:\nIn this project, you will use unsupervised learning techniques to build a major recommender system for Cal Poly Humboldt using publicly available data. The goal is to explore and justify modeling choices, and communicate the resulting recommendations clearly and responsibly.\nSupervised Learning Project:\nIn this project, you will work with data from a one-dimensional simulation of a fusion reactor to develop a model to predict the onset of instabilities before they occur. This project emphasizes feature engineering, computational efficiency and valid model evaluation in an effort to help further research in California’s renewable energy sector.\n\nOne midterm exam and one final exam.\nExams assess students’ ability to reason about machine learning methods, interpret results, compare approaches, and understand limitations. Exams focus on conceptual understanding rather than memorization of code syntax.\n\n\n\n\n\n\n\n\nComponent\nWeight\n\n\n\n\nDaily Participation (Warm-ups)\n5%\n\n\nWeekly Quizzes\n25%\n\n\nWeekly Labs\n15%\n\n\nTwo Projects\n30%\n\n\nMidterm Exam\n10%\n\n\nFinal Exam\n15%\n\n\nTotal\n100%\n\n\n\nFinal letter grades will be assigned according to the following scale:\nA: 93–100% | A-: 90–92% | B+: 87–89% | B: 83–86% | B-: 80–82% | C+: 77–79% | C: 73–76% | C-: 70–72% | D: 60–69% | F: 0–59%\nGrades are recorded in Canvas. Canvas grades are not official until finalized at the end of the semester.\n\n\n\n\nRegular attendance and active participation are expected and essential for success in this course. Attendance in lecture and lab will be reflected in participation activities and assignments.\nIf you must miss class, you are responsible for obtaining notes and keeping up with course material.\n\n\n\n\n\nDaily warm-ups are graded on participation and cannot be made up if missed.\nWeekly labs are due on the posted deadlines in Canvas. Late submissions may be accepted in documented emergencies; otherwise, late work policies will be specified per lab.\nWeekly quizzes are administered during lab sessions. If you need to miss a quiz due to illness or other emergencies, please contact me to make an arrangement to take it at another time.\nProjects are due on the specified dates in Canvas. Late project policies will be specified per project.\nExams must be taken on the scheduled date unless arrangements are made in advance due to illness or emergency.\n\nTechnology issues are not automatically considered valid excuses for late or missed work.\n\n\n\n\n\nData preprocessing skills from DATA 271\nIntroduction to machine learning\nUnsupervised learning\nTraditional supervised learning methods\nModel evaluation and validation\nModern supervised learning methods\nFeature engineering & computational efficiency\nEthical considerations and appropriate communication of results\n\n\n\n\n\nStudents are responsible for reviewing the Cal Poly Humboldt Syllabus Addendum, which includes policies and resources related to:\n\nAcademic honesty\nDisability accommodations\nEmergency procedures\nTitle IX\nStudent conduct and support services\n\nThe Syllabus Addendum is available on the Cal Poly Humboldt website.\n\n\n\n\nStudents who wish to request disability-related accommodations should contact the Student Disability Resource Center (SDRC) as early as possible and then email me your letter of accommodation.\n\n\n\n\nStandards of respectful and professional behavior apply to all course interactions, including in-person classes, assignments, and email communication.\n\n\n\n\nThis syllabus is subject to change. Any changes will be communicated through Canvas announcements."
   },
   {
     "objectID": "syllabus.html#data-322-machine-learning-for-data-science",
     "href": "syllabus.html#data-322-machine-learning-for-data-science",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Cal Poly Humboldt — Spring 2026"
   },
   {
     "objectID": "syllabus.html#course-information",
     "href": "syllabus.html#course-information",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Course Number: DATA 322\nCourse Title: Machine Learning for Data Science\nUnits: 4\nSemester: Spring 2026\nMode of Instruction: In-person\nProgram Requirement: Required for the Data Science major\n\n\nSection: DATA 322-10 (CRN 22725)\nDays/Time: Monday, Wednesday, Friday, 1:00–1:50 PM\nLocation: BSS 408\n\n\n\nSection: DATA 322-11 (CRN 22726)\nDay/Time: Tuesday, 1:00–2:50 PM\nLocation: BSS 313\n\n\n\nFinal Exam: Wednesday, May 13, 2026, 12:40–2:30 PM\nLocation: BSS 408\nPlease check Canvas and your Cal Poly Humboldt email regularly for course announcements and updates."
   },
   {
     "objectID": "syllabus.html#important-dates",
     "href": "syllabus.html#important-dates",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Date\nEvent\n\n\n\n\nJanuary 20\nHoliday (No class)\n\n\nFebruary 2\nAdd/Drop Deadline without a serious and compelling reason\n\n\nFebruary 20\nDemo Mini-Project from 11-11:50 in BSS 166\n\n\nMarch 8\nUnsupervised Learning Project due\n\n\nMarch 13\nMidterm 1\n\n\nMarch 16-20\nSpring Break (No classes)\n\n\nMarch 31\nCesar Chavez Day (No class)\n\n\nMay 10\nSupervised Learning Project due\n\n\nMay 13\nFinal Exam: Wednesday, May 13, 2026, 12:40–2:30 PM, BSS 408\n\n\n\nNote: This schedule is subject to change. Any changes will be communicated through Canvas announcements."
   },
   {
     "objectID": "syllabus.html#instructor-information",
     "href": "syllabus.html#instructor-information",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Instructor: Dr. Rosanna Overholser\nEmail: rho3@humboldt.edu\nOffice Location: BSS 334\nOffice Phone: 707-826-4022\nOffice Hours:\nMondays 2:00–3:00 PM\nWednesdays 12:00–12:50 PM\nFridays 10:00–10:50 AM\nOr by appointment\nPlease use your Cal Poly Humboldt email account to contact me."
   },
   {
     "objectID": "syllabus.html#course-description-catalog-description",
     "href": "syllabus.html#course-description-catalog-description",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include supervised learning, unsupervised learning, and best practices in machine learning. The course draws from numerous case studies and applications, with a practical rather than theoretical emphasis.\nWeekly: Lecture 3 hrs. Activity 2 hrs.\nPrerequisites: DATA 271, MATH 107, STAT 109\nA minimum grade of C- is required for the course to count toward the Data Science major."
   },
   {
     "objectID": "syllabus.html#student-learning-outcomes",
     "href": "syllabus.html#student-learning-outcomes",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "(Note, students can find program learning outcomes on the program website, and institution learning outcomes here: https://academicprograms.humboldt.edu/content/baccalaureate-student-learning-outcomes)\n(1) Students will demonstrate computational skills to extract different types and quantities of data from multiple sources and create visualizations and other data products for various audiences. (ILO 3,4,7)\nIn order to achieve PLO 1, students will demonstrate the following specific measurable behaviors:\n\n(SLO 1) Students will extract quantitative and categorical data from a large public database, calculate relevant summary statistics, and present findings numerically and graphically for in-class individual and group data projects.\n\n(2) Students will demonstrate statistical knowledge to build mathematical models and ensure the validity of data and its analysis. (ILO 7)\nIn order to achieve PLO 2, students will demonstrate the following specific measurable behaviors:\n\n(SLO 2) Students will design a mathematical (logic) model to guide analysis and ensure valid and reliable results for in-class individual and group data projects.\n\n(5) Students will communicate effectively with a diverse range of audiences. (ILO 5,6)\nIn order to achieve PLO 5, students will demonstrate the following specific measurable behaviors:\n\n(SLO 5a) Students will prepare a written description of a mathematical model in which they explain the context, describe their methodology, analyze their data, and reach a conclusion that includes a discussion of its implications.\n\nAdditionally, one of students’ two projects, communicated in written form, will be the application of Machine Learning algorithms (supervised and unsupervised, respectively) to a data set related to one of the following: sustainability, social justice, or Traditional Ecological Knowledge (TEK). This project supports ILOs (1) and (2)."
   },
   {
     "objectID": "syllabus.html#course-learning-outcomes",
     "href": "syllabus.html#course-learning-outcomes",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "By the end of this course, students will be able to:\n\nRecognize the characteristics of machine learning that make it useful for real-world problems.\nExplain how machine learning differs from inferential statistical modeling.\nCharacterize machine learning algorithms as supervised and unsupervised.\nImplement common machine learning algorithms using Python-based toolkits.\nApply regression, classification, and clustering methods to real data sets.\nEvaluate model performance and select appropriate models based on context and goals.\nCommunicate modeling choices, results, and limitations to a variety of audiences.\nIdentify and discuss ethical considerations related to data collection, modeling, and algorithmic decision-making."
   },
   {
     "objectID": "syllabus.html#program-institutional-learning-outcomes",
     "href": "syllabus.html#program-institutional-learning-outcomes",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "This course supports the Data Science Program Learning Outcomes and Cal Poly Humboldt’s Institutional Learning Outcomes related to quantitative reasoning, critical thinking, communication, and ethical reasoning."
   },
   {
     "objectID": "syllabus.html#course-materials-workload",
     "href": "syllabus.html#course-materials-workload",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "DATA 322 includes:\n\nThree weekly lecture meetings\nOne weekly laboratory session\n\nIn this 4-unit course, students should expect to spend approximately 12 hours per week on course-related work. This includes time in lecture (3 hours), lab time (2 hours), and time outside of class to complete readings, assignments, projects, and exam preparation (approximately 7 hours)."
   },
   {
     "objectID": "syllabus.html#required-materials",
     "href": "syllabus.html#required-materials",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Textbook:\nAn Introduction to Statistical Learning with Applications in Python\nAvailable free online or for purchase in print.\nSoftware:\nPython and commonly used data science libraries (installed on all campus computers)\nOther Technology:\nRegular access to a computer with reliable internet\nStudents without personal access to required technology may use campus computer labs and library resources."
   },
   {
     "objectID": "syllabus.html#how-to-succeed-in-this-course",
     "href": "syllabus.html#how-to-succeed-in-this-course",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Students enter DATA 322 with different backgrounds in statistics, mathematics, and programming. That’s expected. You do not need to be an expert at the start of the semester to succeed in this course. What matters most is steady engagement and a willingness to practice, reflect, and ask questions.\nStudents who are successful in this course typically:\n\nAttend lecture and lab regularly.\nClass time is used to build intuition, practice ideas, and work through examples that are difficult to learn independently.\nParticipate actively in daily warm-ups.\nWarm-ups are designed to help you engage with your classmates and develop conceptual understanding and confidence before moving to more complex problems.\nUse labs as a space to practice and make mistakes.\nLabs are meant for learning, not perfection. Comparing your work to posted results and reflecting on differences is an important part of the learning process.\nPrepare consistently for weekly quizzes.\nQuizzes are short and predictable, but they require regular practice. Reviewing lecture notes, lab activities, and assigned textbook problems each week will help you succeed.\nStart projects early and work iteratively.\nProjects are most successful when you begin early, test ideas incrementally, and seek feedback along the way. I’ve deliberately chosen two projects that reflect significant problems with real applications of ML. At first glance, the datasets might appear simple but great care is required to build useful products out of them. Rather than tell you a solution to implement, I’m going to use our class time to guide class discussions so that students will be active participants in creating appropriate solutions.\nCollaborate appropriately with classmates.\nDiscussing ideas and approaches is encouraged, but all submitted work must reflect your own understanding unless otherwise specified.\nAsk for help when you need it.\nIf you are struggling with course material, please reach out during office hours, lab sessions, or by email. Seeking help early can make a significant difference.\n\nAs a general guideline, you should plan to spend approximately three hours per week per unit on course-related work, including time in class and time outside of class. For this 4-unit course, this corresponds to about 12 hours per week total. Individual experiences will vary, but this can be a helpful frame of reference when planning your time."
   },
   {
     "objectID": "syllabus.html#course-feedback-assessment",
     "href": "syllabus.html#course-feedback-assessment",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Students will complete a variety of assessments designed to support regular practice, provide regular feedback, and evaluate mastery of machine learning concepts and methods.\nAssessments in this course include:\n\nDaily warm-up problems during lecture (Mondays, Wednesdays, and Fridays).\nThese short activities are designed to help students engage with new concepts, build intuition, and practice explaining ideas with peers. Warm-ups are graded on participation.\nWeekly programming labs.\nLabs provide guided, hands-on practice implementing machine learning methods using Python. Labs are intended as formative learning experiences. I’ll provide desired outputs so students can check their work and reflect on their understanding before turning in their work. Labs will be graded on completion.\nEarly in the semester, you will complete a mini project as part of the weekly labs. This project introduces the full workflow of an applied machine learning task in a simplified and supported setting. Using a provided Google Colab notebook, the class will modify an existing recommender system to form study groups based on survey responses collected from real participants.\nThe goal of this mini project is not to produce perfect groupings, but to practice:\n\nDesigning questions that can be translated into quantitative features\nExplore distance metrics\nApplying and interpreting clustering algorithms\nWorking collaboratively with a shared product\nReflecting on modeling decisions and their consequences\n\nThis experience is designed to make the larger course projects more approachable and to build confidence before tackling more complex open-ended problems.\nWeekly quizzes during lab sessions.\nQuizzes assess understanding of both lab material and assigned practice problems. Quiz questions may include conceptual questions, mathematical calculations, interpretation of output or visualizations, and short problem-solving tasks. Quizzes are designed to encourage steady preparation and synthesis of ideas.\nTwo projects.\nProjects require students to apply machine learning methods to real data, justify modeling choices, evaluate performance, and communicate results in written form. Projects emphasize modeling choices, interpretation, and communication and may be used as part of a professional portfolio.\n\nUnsupervised Learning Project:\nIn this project, you will use unsupervised learning techniques to build a major recommender system for Cal Poly Humboldt using publicly available data. The goal is to explore and justify modeling choices, and communicate the resulting recommendations clearly and responsibly.\nSupervised Learning Project:\nIn this project, you will work with data from a one-dimensional simulation of a fusion reactor to develop a model to predict the onset of instabilities before they occur. This project emphasizes feature engineering, computational efficiency and valid model evaluation in an effort to help further research in California’s renewable energy sector.\n\nOne midterm exam and one final exam.\nExams assess students’ ability to reason about machine learning methods, interpret results, compare approaches, and understand limitations. Exams focus on conceptual understanding rather than memorization of code syntax."
   },
   {
     "objectID": "syllabus.html#grading",
     "href": "syllabus.html#grading",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Component\nWeight\n\n\n\n\nDaily Participation (Warm-ups)\n5%\n\n\nWeekly Quizzes\n25%\n\n\nWeekly Labs\n15%\n\n\nTwo Projects\n30%\n\n\nMidterm Exam\n10%\n\n\nFinal Exam\n15%\n\n\nTotal\n100%\n\n\n\nFinal letter grades will be assigned according to the following scale:\nA: 93–100% | A-: 90–92% | B+: 87–89% | B: 83–86% | B-: 80–82% | C+: 77–79% | C: 73–76% | C-: 70–72% | D: 60–69% | F: 0–59%\nGrades are recorded in Canvas. Canvas grades are not official until finalized at the end of the semester."
   },
   {
     "objectID": "syllabus.html#attendance-participation",
     "href": "syllabus.html#attendance-participation",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Regular attendance and active participation are expected and essential for success in this course. Attendance in lecture and lab will be reflected in participation activities and assignments.\nIf you must miss class, you are responsible for obtaining notes and keeping up with course material."
   },
   {
     "objectID": "syllabus.html#late-or-missed-work-policies",
     "href": "syllabus.html#late-or-missed-work-policies",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Daily warm-ups are graded on participation and cannot be made up if missed.\nWeekly labs are due on the posted deadlines in Canvas. Late submissions may be accepted in documented emergencies; otherwise, late work policies will be specified per lab.\nWeekly quizzes are administered during lab sessions. If you need to miss a quiz due to illness or other emergencies, please contact me to make an arrangement to take it at another time.\nProjects are due on the specified dates in Canvas. Late project policies will be specified per project.\nExams must be taken on the scheduled date unless arrangements are made in advance due to illness or emergency.\n\nTechnology issues are not automatically considered valid excuses for late or missed work."
   },
   {
     "objectID": "syllabus.html#course-topics-approximate-order",
     "href": "syllabus.html#course-topics-approximate-order",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Data preprocessing skills from DATA 271\nIntroduction to machine learning\nUnsupervised learning\nTraditional supervised learning methods\nModel evaluation and validation\nModern supervised learning methods\nFeature engineering & computational efficiency\nEthical considerations and appropriate communication of results"
   },
   {
     "objectID": "syllabus.html#university-policies-resources",
     "href": "syllabus.html#university-policies-resources",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Students are responsible for reviewing the Cal Poly Humboldt Syllabus Addendum, which includes policies and resources related to:\n\nAcademic honesty\nDisability accommodations\nEmergency procedures\nTitle IX\nStudent conduct and support services\n\nThe Syllabus Addendum is available on the Cal Poly Humboldt website."
   },
   {
     "objectID": "syllabus.html#accommodations",
     "href": "syllabus.html#accommodations",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Students who wish to request disability-related accommodations should contact the Student Disability Resource Center (SDRC) as early as possible and then email me your letter of accommodation."
   },
   {
     "objectID": "syllabus.html#classroom-online-conduct",
     "href": "syllabus.html#classroom-online-conduct",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "Standards of respectful and professional behavior apply to all course interactions, including in-person classes, assignments, and email communication."
   },
   {
     "objectID": "syllabus.html#changes-to-the-syllabus",
     "href": "syllabus.html#changes-to-the-syllabus",
-    "title": "Resources",
+    "title": "Course Syllabus",
     "section": "",
     "text": "This syllabus is subject to change. Any changes will be communicated through Canvas announcements."
-  },
-  {
-    "objectID": "syllabus.html#spring-2026",
-    "href": "syllabus.html#spring-2026",
-    "title": "Resources",
-    "section": "Spring 2026",
-    "text": "Spring 2026\nNote: This schedule is subject to change. Any changes will be communicated through Canvas announcements.\n\n\n\nWeek\nMon\nTue\nWed\nFri\n\n\n\n\n1 (Jan 20–23)\nHoliday\nLab 1\nLec\nLec\n\n\n2 (Jan 26–30)\nLec\nLab 2 + Quiz 1\nLec\nLec\n\n\n3 (Feb 2–6)\nLec\nLab 3 + Quiz 2\nLec\nLec\n\n\n4 (Feb 9–13)\nLec\nLab 4 + Quiz 3\nLec\nLec\n\n\n5 (Feb 16–20)\nLec\nLab 5 + Quiz 4\nLec\nDemo Mini-Project (11-11:50, BSS 166)\n\n\n6 (Feb 23–27)\nLec\nLab 6 + Quiz 5\nLec\nLec\n\n\n7 (Mar 2–6)\nLec\nLab 7 + Quiz 6\nLec\nLecProject 1 due Sun, Mar 8\n\n\n8 (Mar 9–13)\nLec\nQuiz 7\nLec\nMidterm 1\n\n\n— (Mar 16–20)\n—\n—\n—\n—\n\n\n9 (Mar 23–27)\nLec\nLab 8 + Quiz 8\nLec\nLec\n\n\n10 (Mar 30–Apr 3)\nLec\nHoliday (Cesar Chavez Day)\nLec\nLec\n\n\n11 (Apr 6–10)\nLec\nLab 9 + Quiz 9\nLec\nLec\n\n\n12 (Apr 13–17)\nLec\nLab 10 + Quiz 10\nLec\nLec\n\n\n13 (Apr 20–24)\nLec\nLab 11 + Quiz 11\nLec\nLec\n\n\n14 (Apr 27–May 1)\nLec\nLab 12 + Quiz 12\nLec\nLec\n\n\n15 (May 4–8)\nLec\nQuiz 13\nLec\nLecProject 2 due Sun, May 10\n\n\nFinals (May 11–15)\n—\n—\nFinal Exam\n—\n\n\n\nImportant Dates:\n\nJanuary 20 - Holiday (No class)\nFebruary 2 - Add/Drop Deadline without a serious and compelling reason\nFebruary 20 - Demo Mini-Project (11-11:50 AM, BSS 166)\nMarch 8 - Unsupervised Learning Project due\nMarch 13 - Midterm 1\nMarch 16-20 - Spring Break (No classes)\nMarch 31 - Cesar Chavez Day (No class on Tuesday)\nMay 10 - Supervised Learning Project due\nMay 13 - Final Exam (12:40–2:30 PM, BSS 408)"
-  },
-  {
-    "objectID": "syllabus.html#overview",
-    "href": "syllabus.html#overview",
-    "title": "Resources",
-    "section": "Overview",
-    "text": "Overview\nThis course includes several types of assessments designed to support regular practice, provide regular feedback, and evaluate mastery of machine learning concepts and methods.\n\n\n\n\n\n\n\n\nComponent\nWeight\nDescription\n\n\n\n\nDaily Participation (Warm-ups)\n5%\nWarm-up problems during lecture (Mondays, Wednesdays, Fridays)\n\n\nWeekly Quizzes\n25%\nQuizzes during lab sessions (Tuesdays)\n\n\nWeekly Labs\n15%\nProgramming labs implementing machine learning methods using Python\n\n\nTwo Projects\n30%\nUnsupervised Learning Project and Supervised Learning Project\n\n\nMidterm Exam\n10%\nMidterm 1 (March 13)\n\n\nFinal Exam\n15%\nFinal Exam (May 13, 12:40–2:30 PM, BSS 408)\n\n\nTotal\n100%"
-  },
-  {
-    "objectID": "syllabus.html#daily-participation-warm-ups-5",
-    "href": "syllabus.html#daily-participation-warm-ups-5",
-    "title": "Resources",
-    "section": "Daily Participation (Warm-ups) (5%)",
-    "text": "Daily Participation (Warm-ups) (5%)\nDaily warm-up problems are completed during lecture (Mondays, Wednesdays, and Fridays). These short activities are designed to help students engage with new concepts, build intuition, and practice explaining ideas with peers. Warm-ups are graded on participation."
-  },
-  {
-    "objectID": "syllabus.html#weekly-labs-15",
-    "href": "syllabus.html#weekly-labs-15",
-    "title": "Resources",
-    "section": "Weekly Labs (15%)",
-    "text": "Weekly Labs (15%)\nWeekly programming labs provide guided, hands-on practice implementing machine learning methods using Python. Labs are intended as formative learning experiences. I’ll provide desired outputs so students can check their work and reflect on their understanding before turning in their work. Labs will be graded on completion.\nEarly in the semester, you will complete a mini project as part of the weekly labs. This project introduces the full workflow of an applied machine learning task in a simplified and supported setting. Using a provided Google Colab notebook, the class will modify an existing recommender system to form study groups based on survey responses collected from real participants.\n\nIndividual Labs\n\nLab 1 - Instructions coming soon\nLab 2 - Instructions coming soon\nLab 3 - Instructions coming soon\nLab 4 - Instructions coming soon\nLab 5 - Instructions coming soon\nLab 6 - Instructions coming soon\nLab 7 - Instructions coming soon\nLab 8 - Instructions coming soon\nLab 9 - Instructions coming soon\nLab 10 - Instructions coming soon\nLab 11 - Instructions coming soon\nLab 12 - Instructions coming soon"
-  },
-  {
-    "objectID": "syllabus.html#weekly-quizzes-25",
-    "href": "syllabus.html#weekly-quizzes-25",
-    "title": "Resources",
-    "section": "Weekly Quizzes (25%)",
-    "text": "Weekly Quizzes (25%)\nWeekly quizzes are administered during lab sessions (Tuesdays). Quizzes assess understanding of both lab material and assigned practice problems. Quiz questions may include conceptual questions, mathematical calculations, interpretation of output or visualizations, and short problem-solving tasks. Quizzes are designed to encourage steady preparation and synthesis of ideas.\nIf you need to miss a quiz due to illness or other emergencies, please contact me to make an arrangement to take it at another time.\n\nIndividual Quizzes\n\nQuiz 1 - Instructions coming soon\nQuiz 2 - Instructions coming soon\nQuiz 3 - Instructions coming soon\nQuiz 4 - Instructions coming soon\nQuiz 5 - Instructions coming soon\nQuiz 6 - Instructions coming soon\nQuiz 7 - Instructions coming soon\nQuiz 8 - Instructions coming soon\nQuiz 9 - Instructions coming soon\nQuiz 10 - Instructions coming soon\nQuiz 11 - Instructions coming soon\nQuiz 12 - Instructions coming soon\nQuiz 13 - Instructions coming soon"
-  },
-  {
-    "objectID": "syllabus.html#projects-30",
-    "href": "syllabus.html#projects-30",
-    "title": "Resources",
-    "section": "Projects (30%)",
-    "text": "Projects (30%)\nTwo projects throughout the semester require students to apply machine learning methods to real data, justify modeling choices, evaluate performance, and communicate results in written form. Projects emphasize modeling choices, interpretation, and communication and may be used as part of a professional portfolio.\nLate project policies will be specified per project.\n\nIndividual Projects\n\nUnsupervised Learning Project - Due March 8\nIn this project, you will use unsupervised learning techniques to build a major recommender system for Cal Poly Humboldt using publicly available data. The goal is to explore and justify modeling choices, and communicate the resulting recommendations clearly and responsibly.\nSupervised Learning Project - Due May 10\nIn this project, you will work with data from a one-dimensional simulation of a fusion reactor to develop a model to predict the onset of instabilities before they occur. This project emphasizes feature engineering, computational efficiency and valid model evaluation in an effort to help further research in California’s renewable energy sector."
-  },
-  {
-    "objectID": "syllabus.html#exams-25",
-    "href": "syllabus.html#exams-25",
-    "title": "Resources",
-    "section": "Exams (25%)",
-    "text": "Exams (25%)\n\nMidterm Exam (10%)\n\nMidterm 1: March 13 (in lecture)\n\nExams assess students’ ability to reason about machine learning methods, interpret results, compare approaches, and understand limitations. Exams focus on conceptual understanding rather than memorization of code syntax.\nIf you need to miss a midterm due to illness or other emergencies, please communicate with me as soon as possible to reschedule it.\n\n\nFinal Exam (15%)\nFinal Exam: Wednesday, May 13, 2026, 12:40–2:30 PM, BSS 408\nThe final exam is required and assesses comprehensive understanding of machine learning concepts and methods covered throughout the semester."
-  },
-  {
-    "objectID": "syllabus.html#grading-scale",
-    "href": "syllabus.html#grading-scale",
-    "title": "Resources",
-    "section": "Grading Scale",
-    "text": "Grading Scale\nFinal letter grades will be assigned based on overall performance:\nA: 93-100% | A-: 90-92% | B+: 87-89% | B: 83-86% | B-: 80-82% | C+: 77-79% | C: 73-76% | C-: 70-72% | D: 60-69% | F: 0-59%\nA minimum grade of C- is required for the course to count toward the Data Science major."
-  },
-  {
-    "objectID": "syllabus.html#week-1",
-    "href": "syllabus.html#week-1",
-    "title": "Resources",
-    "section": "Week 1",
-    "text": "Week 1\n\nMonday\nHoliday - No class\n\n\nWednesday\nLecture 1\n\n\nFriday\nLecture 2"
-  },
-  {
-    "objectID": "syllabus.html#week-2",
-    "href": "syllabus.html#week-2",
-    "title": "Resources",
-    "section": "Week 2",
-    "text": "Week 2\n\nMonday\nLecture 3\n\n\nWednesday\nLecture 4\n\n\nFriday\nLecture 5"
-  },
-  {
-    "objectID": "syllabus.html#week-3",
-    "href": "syllabus.html#week-3",
-    "title": "Resources",
-    "section": "Week 3",
-    "text": "Week 3\n\nMonday\nLecture 6\n\n\nWednesday\nLecture 7\n\n\nFriday\nLecture 8"
-  },
-  {
-    "objectID": "syllabus.html#week-4",
-    "href": "syllabus.html#week-4",
-    "title": "Resources",
-    "section": "Week 4",
-    "text": "Week 4\n\nMonday\nLecture 9\n\n\nWednesday\nLecture 10\n\n\nFriday\nLecture 11"
-  },
-  {
-    "objectID": "syllabus.html#week-5",
-    "href": "syllabus.html#week-5",
-    "title": "Resources",
-    "section": "Week 5",
-    "text": "Week 5\n\nMonday\nLecture 12\n\n\nWednesday\nLecture 13\n\n\nFriday\nLecture 14"
-  },
-  {
-    "objectID": "syllabus.html#week-6",
-    "href": "syllabus.html#week-6",
-    "title": "Resources",
-    "section": "Week 6",
-    "text": "Week 6\n\nMonday\nLecture 15\n\n\nWednesday\nReview\n\n\nFriday\nMidterm 1"
-  },
-  {
-    "objectID": "syllabus.html#week-7",
-    "href": "syllabus.html#week-7",
-    "title": "Resources",
-    "section": "Week 7",
-    "text": "Week 7\n\nMonday\nLecture 16\n\n\nWednesday\nLecture 17\n\n\nFriday\nLecture 18"
-  },
-  {
-    "objectID": "syllabus.html#week-8",
-    "href": "syllabus.html#week-8",
-    "title": "Resources",
-    "section": "Week 8",
-    "text": "Week 8\n\nMonday\nLecture 19\n\n\nWednesday\nLecture 20\n\n\nFriday\nLecture 21"
-  },
-  {
-    "objectID": "syllabus.html#week-9",
-    "href": "syllabus.html#week-9",
-    "title": "Resources",
-    "section": "Week 9",
-    "text": "Week 9\n\nMonday\nLecture 22\n\n\nWednesday\nLecture 23\n\n\nFriday\nLecture 24"
-  },
-  {
-    "objectID": "syllabus.html#week-10",
-    "href": "syllabus.html#week-10",
-    "title": "Resources",
-    "section": "Week 10",
-    "text": "Week 10\n\nMonday\nLecture 25\n\n\nWednesday\nLecture 26\n\n\nFriday\nLecture 27"
-  },
-  {
-    "objectID": "syllabus.html#week-11",
-    "href": "syllabus.html#week-11",
-    "title": "Resources",
-    "section": "Week 11",
-    "text": "Week 11\n\nMonday\nLecture 28\n\n\nWednesday\nLecture 29\n\n\nFriday\nLecture 30"
-  },
-  {
-    "objectID": "syllabus.html#week-12",
-    "href": "syllabus.html#week-12",
-    "title": "Resources",
-    "section": "Week 12",
-    "text": "Week 12\n\nMonday\nLecture 31\n\n\nWednesday\nLecture 32\n\n\nFriday\nLecture 33"
-  },
-  {
-    "objectID": "syllabus.html#week-13",
-    "href": "syllabus.html#week-13",
-    "title": "Resources",
-    "section": "Week 13",
-    "text": "Week 13\n\nMonday\nLecture 34\n\n\nWednesday\nReview\n\n\nFriday\nMidterm 2"
-  },
-  {
-    "objectID": "syllabus.html#week-14",
-    "href": "syllabus.html#week-14",
-    "title": "Resources",
-    "section": "Week 14",
-    "text": "Week 14\n\nMonday\nLecture 35\n\n\nWednesday\nLecture 36\n\n\nFriday\nLecture 37"
-  },
-  {
-    "objectID": "syllabus.html#week-15",
-    "href": "syllabus.html#week-15",
-    "title": "Resources",
-    "section": "Week 15",
-    "text": "Week 15\n\nMonday\nLecture 38\n\n\nWednesday\nReview\n\n\nFriday\nReview"
-  },
-  {
-    "objectID": "syllabus.html#r-import",
-    "href": "syllabus.html#r-import",
-    "title": "Resources",
-    "section": "Import Data",
-    "text": "Import Data\n[Content to be added]"
-  },
-  {
-    "objectID": "syllabus.html#r-summaries",
-    "href": "syllabus.html#r-summaries",
-    "title": "Resources",
-    "section": "Summaries",
-    "text": "Summaries\n[Content to be added]"
-  },
-  {
-    "objectID": "syllabus.html#r-plots",
-    "href": "syllabus.html#r-plots",
-    "title": "Resources",
-    "section": "Plots",
-    "text": "Plots\n[Content to be added]"
-  },
-  {
-    "objectID": "syllabus.html#r-sim",
-    "href": "syllabus.html#r-sim",
-    "title": "Resources",
-    "section": "Simulation",
-    "text": "Simulation\n[Content to be added]"
-  },
-  {
-    "objectID": "syllabus.html#lectures-1",
-    "href": "syllabus.html#lectures-1",
-    "title": "Resources",
-    "section": "Lectures",
-    "text": "Lectures\nLectures - Access all course lectures organized by week and day."
-  },
-  {
-    "objectID": "syllabus.html#textbook",
-    "href": "syllabus.html#textbook",
-    "title": "Resources",
-    "section": "Textbook",
-    "text": "Textbook\nRequired Textbook: An Introduction to Statistical Learning with Applications in Python\nAvailable free online or for purchase in print. This textbook provides a broad and less technical treatment of key topics in statistical learning, with practical applications in Python."
-  },
-  {
-    "objectID": "syllabus.html#python-software-downloads",
-    "href": "syllabus.html#python-software-downloads",
-    "title": "Resources",
-    "section": "Python Software Downloads",
-    "text": "Python Software Downloads\nDATA 322 uses Python for machine learning and data analysis. You can use Python in several ways:\n\nPython (Base Installation)\nDownload Python: Python.org\nPython is free and open-source. The base Python installation includes the core language and standard library.\n\nWindows: Download the installer from python.org\nMac: Python may be pre-installed, or download from python.org\nLinux: Install via your distribution’s package manager or from python.org\n\n\n\nPython Data Science Libraries\nCommonly used libraries for this course include: - numpy - Numerical computing - pandas - Data manipulation and analysis - scikit-learn - Machine learning algorithms - matplotlib - Data visualization - seaborn - Statistical data visualization\nInstall via pip: pip install numpy pandas scikit-learn matplotlib seaborn\n\n\nPython in Google Colab\nAccess Python in Google Colab: Google Colab\nGoogle Colab provides free access to Python in a cloud-based notebook environment with many data science libraries pre-installed. This is useful if you don’t want to install Python on your computer or need to work from different devices.\n\n\nPython in Jupyter Notebook\nInstall Jupyter: Jupyter Installation Guide\nJupyter Notebook is a popular environment for interactive Python development and data analysis.\n\nInstall Python first\nInstall Jupyter: pip install jupyter\nLaunch Jupyter: jupyter notebook\n\nNote: Python and commonly used data science libraries are installed on all campus computers, so you can use the computer labs if you prefer not to install software on your personal computer."
-  },
-  {
-    "objectID": "syllabus.html#course-reference-materials",
-    "href": "syllabus.html#course-reference-materials",
-    "title": "Resources",
-    "section": "Course Reference Materials",
-    "text": "Course Reference Materials\n\nPython Reference\nPython Quick Reference - A quick reference guide for common Python commands and functions used in this course for machine learning and data analysis.\n\n\nMethods Map\nMethods Map - A reference table of machine learning methods covered in the course, organized by topic."
-  },
-  {
-    "objectID": "syllabus.html#additional-resources",
-    "href": "syllabus.html#additional-resources",
-    "title": "Resources",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nCampus Resources\n\nComputer Labs: Python and commonly used data science libraries are installed on all campus computers\nROSE (Reusable Office Supply Exchange): Free used computers may be available if you need a computer\n\n\n\nGetting Help\n\nOffice Hours: See the Syllabus for instructor office hours\nCanvas: Check Canvas for announcements and course communications\nEmail: Contact the instructor at rho3@humboldt.edu"
   }
 ]
