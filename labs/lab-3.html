@@ -118,7 +118,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lab-3" id="toc-lab-3" class="nav-link active" data-scroll-target="#lab-3">Lab 3</a></li>
+  <li><a href="#lab-3-new-python-functions-hierarchical-clustering" id="toc-lab-3-new-python-functions-hierarchical-clustering" class="nav-link active" data-scroll-target="#lab-3-new-python-functions-hierarchical-clustering">Lab 3 — New Python Functions (Hierarchical Clustering)</a>
+  <ul class="collapse">
+  <li><a href="#distance-computation" id="toc-distance-computation" class="nav-link" data-scroll-target="#distance-computation">1. Distance computation</a>
+  <ul class="collapse">
+  <li><a href="#scipy.spatial.distance.pdist" id="toc-scipy.spatial.distance.pdist" class="nav-link" data-scroll-target="#scipy.spatial.distance.pdist"><code>scipy.spatial.distance.pdist</code></a></li>
+  <li><a href="#scipy.spatial.distance.squareform" id="toc-scipy.spatial.distance.squareform" class="nav-link" data-scroll-target="#scipy.spatial.distance.squareform"><code>scipy.spatial.distance.squareform</code></a></li>
+  </ul></li>
+  <li><a href="#hierarchical-clustering-models-sklearn" id="toc-hierarchical-clustering-models-sklearn" class="nav-link" data-scroll-target="#hierarchical-clustering-models-sklearn">2. Hierarchical clustering models (sklearn)</a>
+  <ul class="collapse">
+  <li><a href="#sklearn.cluster.agglomerativeclustering" id="toc-sklearn.cluster.agglomerativeclustering" class="nav-link" data-scroll-target="#sklearn.cluster.agglomerativeclustering"><code>sklearn.cluster.AgglomerativeClustering</code></a></li>
+  </ul></li>
+  <li><a href="#converting-to-a-dendrogram-islp" id="toc-converting-to-a-dendrogram-islp" class="nav-link" data-scroll-target="#converting-to-a-dendrogram-islp">3. Converting to a dendrogram (ISLP)</a>
+  <ul class="collapse">
+  <li><a href="#islp.cluster.compute_linkage" id="toc-islp.cluster.compute_linkage" class="nav-link" data-scroll-target="#islp.cluster.compute_linkage"><code>ISLP.cluster.compute_linkage</code></a></li>
+  </ul></li>
+  <li><a href="#drawing-dendrograms" id="toc-drawing-dendrograms" class="nav-link" data-scroll-target="#drawing-dendrograms">4. Drawing dendrograms</a>
+  <ul class="collapse">
+  <li><a href="#scipy.cluster.hierarchy.dendrogram" id="toc-scipy.cluster.hierarchy.dendrogram" class="nav-link" data-scroll-target="#scipy.cluster.hierarchy.dendrogram"><code>scipy.cluster.hierarchy.dendrogram</code></a></li>
+  </ul></li>
+  <li><a href="#cutting-the-dendrogram-into-clusters" id="toc-cutting-the-dendrogram-into-clusters" class="nav-link" data-scroll-target="#cutting-the-dendrogram-into-clusters">5. Cutting the dendrogram into clusters</a>
+  <ul class="collapse">
+  <li><a href="#scipy.cluster.hierarchy.cut_tree" id="toc-scipy.cluster.hierarchy.cut_tree" class="nav-link" data-scroll-target="#scipy.cluster.hierarchy.cut_tree"><code>scipy.cluster.hierarchy.cut_tree</code></a></li>
+  </ul></li>
+  <li><a href="#scaling-variables" id="toc-scaling-variables" class="nav-link" data-scroll-target="#scaling-variables">6. Scaling variables</a>
+  <ul class="collapse">
+  <li><a href="#sklearn.preprocessing.standardscaler" id="toc-sklearn.preprocessing.standardscaler" class="nav-link" data-scroll-target="#sklearn.preprocessing.standardscaler"><code>sklearn.preprocessing.StandardScaler</code></a></li>
+  </ul></li>
+  <li><a href="#linkage-without-sklearn" id="toc-linkage-without-sklearn" class="nav-link" data-scroll-target="#linkage-without-sklearn">7. Linkage without sklearn</a>
+  <ul class="collapse">
+  <li><a href="#scipy.cluster.hierarchy.linkage" id="toc-scipy.cluster.hierarchy.linkage" class="nav-link" data-scroll-target="#scipy.cluster.hierarchy.linkage"><code>scipy.cluster.hierarchy.linkage</code></a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lab-3.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </nav>
@@ -132,7 +163,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title">Lab 3</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
-<p class="subtitle lead">STAT 109: Introductory Biostatistics</p>
 </div>
 
 
@@ -149,13 +179,103 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="lab-3" class="level1">
-<h1>Lab 3</h1>
-<p><em>Instructions coming soon.</em></p>
+<section id="lab-3-new-python-functions-hierarchical-clustering" class="level1">
+<h1>Lab 3 — New Python Functions (Hierarchical Clustering)</h1>
+<p>This lab introduces <strong>hierarchical (agglomerative) clustering</strong> and <strong>dendrograms</strong>. Many functions will look familiar from earlier labs, but they are used in new ways.</p>
+<section id="distance-computation" class="level2">
+<h2 class="anchored" data-anchor-id="distance-computation">1. Distance computation</h2>
+<section id="scipy.spatial.distance.pdist" class="level3">
+<h3 class="anchored" data-anchor-id="scipy.spatial.distance.pdist"><code>scipy.spatial.distance.pdist</code></h3>
+<p>Computes <strong>pairwise distances</strong> between observations.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.spatial.distance <span class="im">import</span> pdist</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>D <span class="op">=</span> pdist(X, metric<span class="op">=</span><span class="st">"euclidean"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Note:</strong> Output is a <em>condensed</em> distance vector (not a square matrix).</p>
+</section>
+<section id="scipy.spatial.distance.squareform" class="level3">
+<h3 class="anchored" data-anchor-id="scipy.spatial.distance.squareform"><code>scipy.spatial.distance.squareform</code></h3>
+<p>Converts between condensed and square distance matrices.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.spatial.distance <span class="im">import</span> squareform</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>squareform(D)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Useful for inspecting distances and matching by-hand calculations.</p>
+</section>
+</section>
+<section id="hierarchical-clustering-models-sklearn" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-clustering-models-sklearn">2. Hierarchical clustering models (sklearn)</h2>
+<section id="sklearn.cluster.agglomerativeclustering" class="level3">
+<h3 class="anchored" data-anchor-id="sklearn.cluster.agglomerativeclustering"><code>sklearn.cluster.AgglomerativeClustering</code></h3>
+<p>Fits a bottom-up hierarchical clustering model.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> AgglomerativeClustering</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>hc <span class="op">=</span> AgglomerativeClustering(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    distance_threshold<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    n_clusters<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    linkage<span class="op">=</span><span class="st">"complete"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>hc.fit(X)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Key arguments:</p>
+<ul>
+<li><code>linkage</code>: <code>"single"</code>, <code>"complete"</code>, <code>"average"</code></li>
+<li><code>distance_threshold=0</code> and <code>n_clusters=None</code> → required to build the <em>full tree</em></li>
+</ul>
+<p><strong>Note:</strong> this does <strong>not</strong> directly give a dendrogram.</p>
+</section>
+</section>
+<section id="converting-to-a-dendrogram-islp" class="level2">
+<h2 class="anchored" data-anchor-id="converting-to-a-dendrogram-islp">3. Converting to a dendrogram (ISLP)</h2>
+<section id="islp.cluster.compute_linkage" class="level3">
+<h3 class="anchored" data-anchor-id="islp.cluster.compute_linkage"><code>ISLP.cluster.compute_linkage</code></h3>
+<p>Converts a fitted <code>AgglomerativeClustering</code> object into a <strong>SciPy linkage matrix</strong>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ISLP.cluster <span class="im">import</span> compute_linkage</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> compute_linkage(hc)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This linkage matrix is what <code>dendrogram()</code> needs.</p>
+<p><strong>Note:</strong> This function is specific to ISLP and mirrors the Chapter 12 labs.</p>
+</section>
+</section>
+<section id="drawing-dendrograms" class="level2">
+<h2 class="anchored" data-anchor-id="drawing-dendrograms">4. Drawing dendrograms</h2>
+<section id="scipy.cluster.hierarchy.dendrogram" class="level3">
+<h3 class="anchored" data-anchor-id="scipy.cluster.hierarchy.dendrogram"><code>scipy.cluster.hierarchy.dendrogram</code></h3>
+<p>Plots a dendrogram from a linkage matrix.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> dendrogram</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dendrogram(Z, labels<span class="op">=</span>labels)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A few options:</p>
+<ul>
+<li><code>labels=</code> — names of observations</li>
+<li><code>color_threshold=-np.inf</code> (for black dendrograms)</li>
+</ul>
+</section>
+</section>
+<section id="cutting-the-dendrogram-into-clusters" class="level2">
+<h2 class="anchored" data-anchor-id="cutting-the-dendrogram-into-clusters">5. Cutting the dendrogram into clusters</h2>
+<section id="scipy.cluster.hierarchy.cut_tree" class="level3">
+<h3 class="anchored" data-anchor-id="scipy.cluster.hierarchy.cut_tree"><code>scipy.cluster.hierarchy.cut_tree</code></h3>
+<p>Extracts cluster assignments from a dendrogram.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> cut_tree</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>clusters <span class="op">=</span> cut_tree(Z, n_clusters<span class="op">=</span><span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="scaling-variables" class="level2">
+<h2 class="anchored" data-anchor-id="scaling-variables">6. Scaling variables</h2>
+<section id="sklearn.preprocessing.standardscaler" class="level3">
+<h3 class="anchored" data-anchor-id="sklearn.preprocessing.standardscaler"><code>sklearn.preprocessing.StandardScaler</code></h3>
+<p>Standardizes variables before distance-based clustering.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>X_scaled <span class="op">=</span> scaler.fit_transform(X)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="linkage-without-sklearn" class="level2">
+<h2 class="anchored" data-anchor-id="linkage-without-sklearn">7. Linkage without sklearn</h2>
+<section id="scipy.cluster.hierarchy.linkage" class="level3">
+<h3 class="anchored" data-anchor-id="scipy.cluster.hierarchy.linkage"><code>scipy.cluster.hierarchy.linkage</code></h3>
+<p>Performs hierarchical clustering directly from distances.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> linkage</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> linkage(D, method<span class="op">=</span><span class="st">"complete"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 <!-- -->
 
+</section>
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>Creative Commons Attribution-NonCommercial 4.0 International<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">(View License)</a></div></div></section></div></main> <!-- /main -->
@@ -615,14 +735,125 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Lab 3"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "STAT 109: Introductory Biostatistics"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># Lab 3</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>*Instructions coming soon.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Lab 3"</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Lab 3 — New Python Functions (Hierarchical Clustering)</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>This lab introduces **hierarchical (agglomerative) clustering** and **dendrograms**. Many functions will look familiar from earlier labs, but they are used in new ways.</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## 1. Distance computation</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="fu">### `scipy.spatial.distance.pdist`</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>Computes **pairwise distances** between observations.</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.spatial.distance <span class="im">import</span> pdist</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>D <span class="op">=</span> pdist(X, metric<span class="op">=</span><span class="st">"euclidean"</span>)</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>**Note:** Output is a *condensed* distance vector (not a square matrix).</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="fu">### `scipy.spatial.distance.squareform`</span></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>Converts between condensed and square distance matrices.</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.spatial.distance <span class="im">import</span> squareform</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>squareform(D)</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>Useful for inspecting distances and matching by-hand calculations.</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2. Hierarchical clustering models (sklearn)</span></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a><span class="fu">### `sklearn.cluster.AgglomerativeClustering`</span></span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>Fits a bottom-up hierarchical clustering model.</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> AgglomerativeClustering</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>hc <span class="op">=</span> AgglomerativeClustering(</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>    distance_threshold<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>    n_clusters<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>    linkage<span class="op">=</span><span class="st">"complete"</span></span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>hc.fit(X)</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>Key arguments:</span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="in">`linkage`</span>: <span class="in">`"single"`</span>, <span class="in">`"complete"`</span>, <span class="in">`"average"`</span></span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="in">`distance_threshold=0`</span> and <span class="in">`n_clusters=None`</span> → required to build the *full tree*</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>**Note:** this does **not** directly give a dendrogram.</span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a><span class="fu">## 3. Converting to a dendrogram (ISLP)</span></span>
+<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a><span class="fu">### `ISLP.cluster.compute_linkage`</span></span>
+<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a>Converts a fitted <span class="in">`AgglomerativeClustering`</span> object into a **SciPy linkage matrix**.</span>
+<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-63"><a href="#cb9-63" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ISLP.cluster <span class="im">import</span> compute_linkage</span>
+<span id="cb9-64"><a href="#cb9-64" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> compute_linkage(hc)</span>
+<span id="cb9-65"><a href="#cb9-65" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-66"><a href="#cb9-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-67"><a href="#cb9-67" aria-hidden="true" tabindex="-1"></a>This linkage matrix is what <span class="in">`dendrogram()`</span> needs.</span>
+<span id="cb9-68"><a href="#cb9-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-69"><a href="#cb9-69" aria-hidden="true" tabindex="-1"></a>**Note:** This function is specific to ISLP and mirrors the Chapter 12 labs.</span>
+<span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-71"><a href="#cb9-71" aria-hidden="true" tabindex="-1"></a><span class="fu">## 4. Drawing dendrograms</span></span>
+<span id="cb9-72"><a href="#cb9-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-73"><a href="#cb9-73" aria-hidden="true" tabindex="-1"></a><span class="fu">### `scipy.cluster.hierarchy.dendrogram`</span></span>
+<span id="cb9-74"><a href="#cb9-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-75"><a href="#cb9-75" aria-hidden="true" tabindex="-1"></a>Plots a dendrogram from a linkage matrix.</span>
+<span id="cb9-76"><a href="#cb9-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-77"><a href="#cb9-77" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-78"><a href="#cb9-78" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> dendrogram</span>
+<span id="cb9-79"><a href="#cb9-79" aria-hidden="true" tabindex="-1"></a>dendrogram(Z, labels<span class="op">=</span>labels)</span>
+<span id="cb9-80"><a href="#cb9-80" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-81"><a href="#cb9-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-82"><a href="#cb9-82" aria-hidden="true" tabindex="-1"></a>A few options:</span>
+<span id="cb9-83"><a href="#cb9-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-84"><a href="#cb9-84" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="in">`labels=`</span> — names of observations</span>
+<span id="cb9-85"><a href="#cb9-85" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="in">`color_threshold=-np.inf`</span> (for black dendrograms)</span>
+<span id="cb9-86"><a href="#cb9-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-87"><a href="#cb9-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## 5. Cutting the dendrogram into clusters</span></span>
+<span id="cb9-88"><a href="#cb9-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-89"><a href="#cb9-89" aria-hidden="true" tabindex="-1"></a><span class="fu">### `scipy.cluster.hierarchy.cut_tree`</span></span>
+<span id="cb9-90"><a href="#cb9-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-91"><a href="#cb9-91" aria-hidden="true" tabindex="-1"></a>Extracts cluster assignments from a dendrogram.</span>
+<span id="cb9-92"><a href="#cb9-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-93"><a href="#cb9-93" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-94"><a href="#cb9-94" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> cut_tree</span>
+<span id="cb9-95"><a href="#cb9-95" aria-hidden="true" tabindex="-1"></a>clusters <span class="op">=</span> cut_tree(Z, n_clusters<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb9-96"><a href="#cb9-96" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-97"><a href="#cb9-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-98"><a href="#cb9-98" aria-hidden="true" tabindex="-1"></a><span class="fu">## 6. Scaling variables</span></span>
+<span id="cb9-99"><a href="#cb9-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-100"><a href="#cb9-100" aria-hidden="true" tabindex="-1"></a><span class="fu">### `sklearn.preprocessing.StandardScaler`</span></span>
+<span id="cb9-101"><a href="#cb9-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-102"><a href="#cb9-102" aria-hidden="true" tabindex="-1"></a>Standardizes variables before distance-based clustering.</span>
+<span id="cb9-103"><a href="#cb9-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-104"><a href="#cb9-104" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-105"><a href="#cb9-105" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb9-106"><a href="#cb9-106" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb9-107"><a href="#cb9-107" aria-hidden="true" tabindex="-1"></a>X_scaled <span class="op">=</span> scaler.fit_transform(X)</span>
+<span id="cb9-108"><a href="#cb9-108" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb9-109"><a href="#cb9-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-110"><a href="#cb9-110" aria-hidden="true" tabindex="-1"></a><span class="fu">## 7. Linkage without sklearn </span></span>
+<span id="cb9-111"><a href="#cb9-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-112"><a href="#cb9-112" aria-hidden="true" tabindex="-1"></a><span class="fu">### `scipy.cluster.hierarchy.linkage`</span></span>
+<span id="cb9-113"><a href="#cb9-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-114"><a href="#cb9-114" aria-hidden="true" tabindex="-1"></a>Performs hierarchical clustering directly from distances.</span>
+<span id="cb9-115"><a href="#cb9-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-116"><a href="#cb9-116" aria-hidden="true" tabindex="-1"></a><span class="in">``` python</span></span>
+<span id="cb9-117"><a href="#cb9-117" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.cluster.hierarchy <span class="im">import</span> linkage</span>
+<span id="cb9-118"><a href="#cb9-118" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> linkage(D, method<span class="op">=</span><span class="st">"complete"</span>)</span>
+<span id="cb9-119"><a href="#cb9-119" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
