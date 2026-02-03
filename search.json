@@ -35,59 +35,10 @@
     "text": "Instructor Information\nInstructor: Dr. Rosanna Overholser\nOffice: BSS 334\nEmail: rho3@humboldt.edu\nOffice Hours: Mondays 2:00–3:00 PM, Wednesdays 12:00–12:50 PM, Fridays 10:00–10:50 AM, or by appointment"
   },
   {
-    "objectID": "labs/lab-3.html",
-    "href": "labs/lab-3.html",
-    "title": "Lab 3",
+    "objectID": "quizzes/quiz-3.html",
+    "href": "quizzes/quiz-3.html",
+    "title": "Quiz 3",
     "section": "",
-    "text": "This lab introduces hierarchical (agglomerative) clustering and dendrograms. Many functions will look familiar from earlier labs, but they are used in new ways.\n\n\n\n\nComputes pairwise distances between observations.\nfrom scipy.spatial.distance import pdist\nD = pdist(X, metric=\"euclidean\")\nNote: Output is a condensed distance vector (not a square matrix).\n\n\n\nConverts between condensed and square distance matrices.\nfrom scipy.spatial.distance import squareform\nsquareform(D)\nUseful for inspecting distances and matching by-hand calculations.\n\n\n\n\n\n\nFits a bottom-up hierarchical clustering model.\nfrom sklearn.cluster import AgglomerativeClustering\nhc = AgglomerativeClustering(\n    distance_threshold=0,\n    n_clusters=None,\n    linkage=\"complete\"\n)\nhc.fit(X)\nKey arguments:\n\nlinkage: \"single\", \"complete\", \"average\"\ndistance_threshold=0 and n_clusters=None → required to build the full tree\n\nNote: this does not directly give a dendrogram.\n\n\n\n\n\n\nConverts a fitted AgglomerativeClustering object into a SciPy linkage matrix.\nfrom ISLP.cluster import compute_linkage\nZ = compute_linkage(hc)\nThis linkage matrix is what dendrogram() needs.\nNote: This function is specific to ISLP and mirrors the Chapter 12 labs.\n\n\n\n\n\n\nPlots a dendrogram from a linkage matrix.\nfrom scipy.cluster.hierarchy import dendrogram\ndendrogram(Z, labels=labels)\nA few options:\n\nlabels= — names of observations\ncolor_threshold=-np.inf (for black dendrograms)\n\n\n\n\n\n\n\nExtracts cluster assignments from a dendrogram.\nfrom scipy.cluster.hierarchy import cut_tree\nclusters = cut_tree(Z, n_clusters=3)\n\n\n\n\n\n\nStandardizes variables before distance-based clustering.\nfrom sklearn.preprocessing import StandardScaler\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\n\n\n\n\n\nPerforms hierarchical clustering directly from distances.\nfrom scipy.cluster.hierarchy import linkage\nZ = linkage(D, method=\"complete\")"
-  },
-  {
-    "objectID": "labs/lab-3.html#distance-computation",
-    "href": "labs/lab-3.html#distance-computation",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Computes pairwise distances between observations.\nfrom scipy.spatial.distance import pdist\nD = pdist(X, metric=\"euclidean\")\nNote: Output is a condensed distance vector (not a square matrix).\n\n\n\nConverts between condensed and square distance matrices.\nfrom scipy.spatial.distance import squareform\nsquareform(D)\nUseful for inspecting distances and matching by-hand calculations."
-  },
-  {
-    "objectID": "labs/lab-3.html#hierarchical-clustering-models-sklearn",
-    "href": "labs/lab-3.html#hierarchical-clustering-models-sklearn",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Fits a bottom-up hierarchical clustering model.\nfrom sklearn.cluster import AgglomerativeClustering\nhc = AgglomerativeClustering(\n    distance_threshold=0,\n    n_clusters=None,\n    linkage=\"complete\"\n)\nhc.fit(X)\nKey arguments:\n\nlinkage: \"single\", \"complete\", \"average\"\ndistance_threshold=0 and n_clusters=None → required to build the full tree\n\nNote: this does not directly give a dendrogram."
-  },
-  {
-    "objectID": "labs/lab-3.html#converting-to-a-dendrogram-islp",
-    "href": "labs/lab-3.html#converting-to-a-dendrogram-islp",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Converts a fitted AgglomerativeClustering object into a SciPy linkage matrix.\nfrom ISLP.cluster import compute_linkage\nZ = compute_linkage(hc)\nThis linkage matrix is what dendrogram() needs.\nNote: This function is specific to ISLP and mirrors the Chapter 12 labs."
-  },
-  {
-    "objectID": "labs/lab-3.html#drawing-dendrograms",
-    "href": "labs/lab-3.html#drawing-dendrograms",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Plots a dendrogram from a linkage matrix.\nfrom scipy.cluster.hierarchy import dendrogram\ndendrogram(Z, labels=labels)\nA few options:\n\nlabels= — names of observations\ncolor_threshold=-np.inf (for black dendrograms)"
-  },
-  {
-    "objectID": "labs/lab-3.html#cutting-the-dendrogram-into-clusters",
-    "href": "labs/lab-3.html#cutting-the-dendrogram-into-clusters",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Extracts cluster assignments from a dendrogram.\nfrom scipy.cluster.hierarchy import cut_tree\nclusters = cut_tree(Z, n_clusters=3)"
-  },
-  {
-    "objectID": "labs/lab-3.html#scaling-variables",
-    "href": "labs/lab-3.html#scaling-variables",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Standardizes variables before distance-based clustering.\nfrom sklearn.preprocessing import StandardScaler\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)"
-  },
-  {
-    "objectID": "labs/lab-3.html#linkage-without-sklearn",
-    "href": "labs/lab-3.html#linkage-without-sklearn",
-    "title": "Lab 3",
-    "section": "",
-    "text": "Performs hierarchical clustering directly from distances.\nfrom scipy.cluster.hierarchy import linkage\nZ = linkage(D, method=\"complete\")"
+    "text": "Quiz 3\nThis quiz will contain questions from Lab 2 and similar problems to these two from our textbook:\n\nISLP 12.6.2\nISLP 12.6.4\n\n\n\n\n\n\n\nReuseCreative Commons Attribution-NonCommercial 4.0 International(View License)"
   }
 ]
